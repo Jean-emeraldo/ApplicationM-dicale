@@ -1,14 +1,29 @@
-public class RendezVous
+using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace MediCare.Models
 {
-    public int Id { get; set; }
-    public DateTime DateRendezVous { get; set; }
+    public class RendezVous
+    {
+        [Required(ErrorMessage = "Veuillez saisir un ID valide pour le rendez-vous")]
+        [Display(Name = "ID du Rendez-Vous")]
+        public int Id { get; set; }
 
-    public int PatientId { get; set; }
-    public Patient Patient { get; set; }
+        [Required(ErrorMessage = "Veuillez saisir la date et l'heure du rendez-vous")]
+        [DataType(DataType.DateTime)]
+        [Display(Name = "Date et Heure")]
+        public DateTime DateRendezVous { get; set; }
 
-    public int MedecinId { get; set; }
-    public Medecin Medecin { get; set; }
+        [Required(ErrorMessage = "Veuillez saisir l'ID du patient")]
+        [Display(Name = "ID Patient")]
+        public int PatientId { get; set; }
 
-    public string Statut { get; set; }
+        [Required(ErrorMessage = "Veuillez saisir l'ID du médecin")]
+        [Display(Name = "ID Médecin")]
+        public int MedecinId { get; set; }
+
+        [Required(ErrorMessage = "Veuillez sélectionner un statut")]
+        [Display(Name = "Statut")]
+        public required string Statut { get; set; }
+    }
 }
-

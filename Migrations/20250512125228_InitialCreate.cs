@@ -32,6 +32,7 @@ namespace ApplicationMedicale.Migrations
                 {
                     Id = table.Column<string>(type: "text", nullable: false),
                     FullName = table.Column<string>(type: "text", nullable: false),
+                    RegistrationDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     UserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
@@ -53,13 +54,35 @@ namespace ApplicationMedicale.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "DossiersMedicaux",
+                columns: table => new
+                {
+                    Id = table.Column<string>(type: "text", nullable: false),
+                    Nom = table.Column<string>(type: "text", nullable: false),
+                    DateCreation = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    MedecinResponsable = table.Column<string>(type: "text", nullable: false),
+                    DerniereMiseAJour = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    Statut = table.Column<string>(type: "text", nullable: false),
+                    Description = table.Column<string>(type: "text", nullable: true),
+                    AntecedentsMedicaux = table.Column<string>(type: "text", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_DossiersMedicaux", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Medecins",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Nom = table.Column<string>(type: "text", nullable: false),
-                    Specialite = table.Column<string>(type: "text", nullable: false)
+                    Prenom = table.Column<string>(type: "text", nullable: false),
+                    Specialite = table.Column<string>(type: "text", nullable: false),
+                    NumeroRPPS = table.Column<string>(type: "character varying(11)", maxLength: 11, nullable: false),
+                    Email = table.Column<string>(type: "text", nullable: false),
+                    Telephone = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false)
                 },
                 constraints: table =>
                 {
@@ -75,12 +98,53 @@ namespace ApplicationMedicale.Migrations
                     Nom = table.Column<string>(type: "text", nullable: false),
                     Prenom = table.Column<string>(type: "text", nullable: false),
                     DateNaissance = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    Adresse = table.Column<string>(type: "text", nullable: false),
-                    Telephone = table.Column<string>(type: "text", nullable: false)
+                    Genre = table.Column<string>(type: "text", nullable: false),
+                    Telephone = table.Column<string>(type: "text", nullable: false),
+                    Email = table.Column<string>(type: "text", nullable: true),
+                    Adresse = table.Column<string>(type: "text", nullable: true),
+                    GroupeSanguin = table.Column<string>(type: "text", nullable: true),
+                    MedecinTraitant = table.Column<string>(type: "text", nullable: true),
+                    Allergies = table.Column<string>(type: "text", nullable: true),
+                    AntecedentsMedicaux = table.Column<string>(type: "text", nullable: true),
+                    DerniereVisite = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    Statut = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Patients", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Prescriptions",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Medicament = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    Posologie = table.Column<string>(type: "text", nullable: false),
+                    PatientId = table.Column<int>(type: "integer", nullable: false),
+                    MedecinId = table.Column<int>(type: "integer", nullable: false),
+                    DatePrescription = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Prescriptions", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "RendezVous",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    DateRendezVous = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    PatientId = table.Column<int>(type: "integer", nullable: false),
+                    MedecinId = table.Column<int>(type: "integer", nullable: false),
+                    Statut = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_RendezVous", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -129,8 +193,8 @@ namespace ApplicationMedicale.Migrations
                 name: "AspNetUserLogins",
                 columns: table => new
                 {
-                    LoginProvider = table.Column<string>(type: "character varying(128)", maxLength: 128, nullable: false),
-                    ProviderKey = table.Column<string>(type: "character varying(128)", maxLength: 128, nullable: false),
+                    LoginProvider = table.Column<string>(type: "text", nullable: false),
+                    ProviderKey = table.Column<string>(type: "text", nullable: false),
                     ProviderDisplayName = table.Column<string>(type: "text", nullable: true),
                     UserId = table.Column<string>(type: "text", nullable: false)
                 },
@@ -174,8 +238,8 @@ namespace ApplicationMedicale.Migrations
                 columns: table => new
                 {
                     UserId = table.Column<string>(type: "text", nullable: false),
-                    LoginProvider = table.Column<string>(type: "character varying(128)", maxLength: 128, nullable: false),
-                    Name = table.Column<string>(type: "character varying(128)", maxLength: 128, nullable: false),
+                    LoginProvider = table.Column<string>(type: "text", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false),
                     Value = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
@@ -185,55 +249,6 @@ namespace ApplicationMedicale.Migrations
                         name: "FK_AspNetUserTokens_AspNetUsers_UserId",
                         column: x => x.UserId,
                         principalTable: "AspNetUsers",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Prescriptions",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Medicament = table.Column<string>(type: "text", nullable: false),
-                    Posologie = table.Column<string>(type: "text", nullable: false),
-                    PatientId = table.Column<int>(type: "integer", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Prescriptions", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Prescriptions_Patients_PatientId",
-                        column: x => x.PatientId,
-                        principalTable: "Patients",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "RendezVous",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "integer", nullable: false)
-                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    DateRendezVous = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    PatientId = table.Column<int>(type: "integer", nullable: false),
-                    MedecinId = table.Column<int>(type: "integer", nullable: false),
-                    Statut = table.Column<string>(type: "text", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_RendezVous", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_RendezVous_Medecins_MedecinId",
-                        column: x => x.MedecinId,
-                        principalTable: "Medecins",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_RendezVous_Patients_PatientId",
-                        column: x => x.PatientId,
-                        principalTable: "Patients",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -274,21 +289,6 @@ namespace ApplicationMedicale.Migrations
                 table: "AspNetUsers",
                 column: "NormalizedUserName",
                 unique: true);
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Prescriptions_PatientId",
-                table: "Prescriptions",
-                column: "PatientId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_RendezVous_MedecinId",
-                table: "RendezVous",
-                column: "MedecinId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_RendezVous_PatientId",
-                table: "RendezVous",
-                column: "PatientId");
         }
 
         /// <inheritdoc />
@@ -310,6 +310,15 @@ namespace ApplicationMedicale.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "DossiersMedicaux");
+
+            migrationBuilder.DropTable(
+                name: "Medecins");
+
+            migrationBuilder.DropTable(
+                name: "Patients");
+
+            migrationBuilder.DropTable(
                 name: "Prescriptions");
 
             migrationBuilder.DropTable(
@@ -320,12 +329,6 @@ namespace ApplicationMedicale.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
-
-            migrationBuilder.DropTable(
-                name: "Medecins");
-
-            migrationBuilder.DropTable(
-                name: "Patients");
         }
     }
 }

@@ -301,3 +301,4 @@
 /home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/ApplicationMedicale.pdb
 /home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/ApplicationMedicale.genruntimeconfig.cache
 /home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/ref/ApplicationMedicale.dll
+/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/ApplicationMedicale.sourcelink.json

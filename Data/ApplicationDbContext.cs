@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using MediCare.Models;
 
-namespace ApplicationMedicale.Models
+namespace MediCare.Data
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
@@ -10,9 +11,17 @@ namespace ApplicationMedicale.Models
         {
         }
 
-        public DbSet<Patient> Patients { get; set; }
         public DbSet<Medecin> Medecins { get; set; }
-        public DbSet<RendezVous> RendezVous { get; set; }
+        public DbSet<Patient> Patients { get; set; }
+        public DbSet<DossierMedical> DossiersMedicaux { get; set; }
         public DbSet<Prescription> Prescriptions { get; set; }
+        public DbSet<RendezVous> RendezVous { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            
+        }
     }
 }
