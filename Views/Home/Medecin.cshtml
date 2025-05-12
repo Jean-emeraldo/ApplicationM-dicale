@@ -1,0 +1,477 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare - Nouveau Médecin</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #4361ee;
+            --primary-dark: #3a56d4;
+            --secondary: #3f37c9;
+            --success: #4cc9f0;
+            --danger: #f72585;
+            --warning: #f8961e;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --light-gray: #e9ecef;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f7fb;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo i {
+            margin-right: 0.75rem;
+            font-size: 1.8rem;
+        }
+
+        .main-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .page-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .page-title {
+            font-size: 1.75rem;
+            color: var(--dark);
+            margin-left: 1rem;
+        }
+
+        .page-icon {
+            color: var(--primary);
+            font-size: 2rem;
+        }
+
+        .form-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            padding: 2.5rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .form-header h2 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-header p {
+            color: var(--gray);
+        }
+
+        .form-group {
+            margin-bottom: 1.75rem;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .form-row .form-group {
+            flex: 1;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--dark);
+        }
+
+        .form-label i {
+            margin-right: 0.5rem;
+            color: var(--primary);
+            width: 1.25rem;
+            text-align: center;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            border: 1px solid var(--light-gray);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        select.form-control {
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 1rem center;
+            background-size: 1em;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 0.2rem rgba(67, 97, 238, 0.25);
+            outline: none;
+        }
+
+        .form-text {
+            display: block;
+            margin-top: 0.25rem;
+            font-size: 0.875rem;
+            color: var(--gray);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.875rem 1.75rem;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn i {
+            margin-right: 0.5rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-align: center;
+            width: 100%;
+        }
+
+        .back-link:hover {
+            color: var(--secondary);
+            text-decoration: underline;
+        }
+
+        .back-link i {
+            margin-right: 0.5rem;
+        }
+
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        .footer-text {
+            color: var(--light-gray);
+            font-size: 0.875rem;
+        }
+
+        /* Style pour les messages d'erreur */
+        .error-message {
+            color: var(--danger);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+            display: none;
+        }
+
+        .form-control.invalid {
+            border-color: var(--danger);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="@Url.Action("Index", "Home")" class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>MediCare</span>
+            </a>
+        </div>
+    </header>
+    
+    <main class="main-container">
+        <div class="page-header">
+            <i class="fas fa-user-md page-icon"></i>
+            <h1 class="page-title">Nouveau Médecin</h1>
+        </div>
+        
+        <div class="form-container">
+            <div class="form-header">
+                <h2><i class="fas fa-user-plus"></i> Enregistrement d'un Médecin</h2>
+                <p>Veuillez remplir toutes les informations requises pour le nouveau médecin</p>
+            </div>
+            
+            <form id="medecinForm" action="/medecins" method="post" autocomplete="on" novalidate>
+                <div class="form-group">
+                    <label for="id" class="form-label">
+                        <i class="fas fa-id-card"></i> ID Médecin
+                    </label>
+                    <input type="number" id="id" name="Id" class="form-control" required>
+                    <small class="form-text">Numéro unique d'identification</small>
+                    <div class="error-message" id="id-error">Veuillez saisir un ID valide</div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nom" class="form-label">
+                            <i class="fas fa-user"></i> Nom
+                        </label>
+                        <input type="text" id="nom" name="Nom" class="form-control" required autocomplete="family-name">
+                        <div class="error-message" id="nom-error">Veuillez saisir le nom du médecin</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="prenom" class="form-label">
+                            <i class="fas fa-user"></i> Prénom
+                        </label>
+                        <input type="text" id="prenom" name="Prenom" class="form-control" required autocomplete="given-name">
+                        <div class="error-message" id="prenom-error">Veuillez saisir le prénom du médecin</div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="specialite" class="form-label">
+                        <i class="fas fa-stethoscope"></i> Spécialité
+                    </label>
+                    <select id="specialite" name="Specialite" class="form-control" required>
+                        <option value="">Sélectionnez une spécialité...</option>
+                        <option value="Cardiologie">Cardiologie</option>
+                        <option value="Dermatologie">Dermatologie</option>
+                        <option value="Généraliste">Médecine Générale</option>
+                        <option value="Pédiatrie">Pédiatrie</option>
+                        <option value="Radiologie">Radiologie</option>
+                        <option value="Chirurgie">Chirurgie</option>
+                        <option value="Neurologie">Neurologie</option>
+                        <option value="Ophtalmologie">Ophtalmologie</option>
+                        <option value="ORL">Oto-Rhino-Laryngologie (ORL)</option>
+                        <option value="Autre">Autre spécialité</option>
+                    </select>
+                    <div class="error-message" id="specialite-error">Veuillez sélectionner une spécialité</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="numeroRPPS" class="form-label">
+                        <i class="fas fa-id-badge"></i> Numéro RPPS
+                    </label>
+                    <input type="text" id="numeroRPPS" name="NumeroRPPS" class="form-control" required pattern="[0-9]{11}" title="11 chiffres requis">
+                    <small class="form-text">Numéro à 11 chiffres du Répertoire Partagé des Professionnels de Santé</small>
+                    <div class="error-message" id="numeroRPPS-error">Veuillez saisir un numéro RPPS valide (11 chiffres)</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">
+                        <i class="fas fa-envelope"></i> Email Professionnel
+                    </label>
+                    <input type="email" id="email" name="Email" class="form-control" required autocomplete="email">
+                    <div class="error-message" id="email-error">Veuillez saisir un email professionnel valide</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telephone" class="form-label">
+                        <i class="fas fa-phone"></i> Téléphone
+                    </label>
+                    <input type="tel" id="telephone" name="Telephone" class="form-control" required autocomplete="tel" pattern="[0-9]{10}">
+                    <small class="form-text">Format : 0612345678 (10 chiffres sans espace)</small>
+                    <div class="error-message" id="telephone-error">Veuillez saisir un numéro de téléphone valide</div>
+                </div>
+                
+                <button type="submit" class="btn">
+                    <i class="fas fa-save"></i> Enregistrer le Médecin
+                </button>
+                
+                <a href="@Url.Action("Medecin", "Home")" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Retour à la liste des médecins
+                </a>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <p class="footer-text">&copy; @DateTime.Now.Year MediCare. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Validation du formulaire
+        document.getElementById('medecinForm').addEventListener('submit', function(event) {
+            let isValid = true;
+            
+            // Validation de l'ID
+            const id = document.getElementById('id');
+            if (!id.value || isNaN(id.value)) {
+                showError(id, 'id-error');
+                isValid = false;
+            } else {
+                hideError(id, 'id-error');
+            }
+            
+            // Validation du nom
+            const nom = document.getElementById('nom');
+            if (!nom.value.trim()) {
+                showError(nom, 'nom-error');
+                isValid = false;
+            } else {
+                hideError(nom, 'nom-error');
+            }
+            
+            // Validation du prénom
+            const prenom = document.getElementById('prenom');
+            if (!prenom.value.trim()) {
+                showError(prenom, 'prenom-error');
+                isValid = false;
+            } else {
+                hideError(prenom, 'prenom-error');
+            }
+            
+            // Validation de la spécialité
+            const specialite = document.getElementById('specialite');
+            if (!specialite.value) {
+                showError(specialite, 'specialite-error');
+                isValid = false;
+            } else {
+                hideError(specialite, 'specialite-error');
+            }
+            
+            // Validation du numéro RPPS
+            const numeroRPPS = document.getElementById('numeroRPPS');
+            const rppsRegex = /^[0-9]{11}$/;
+            if (!numeroRPPS.value || !rppsRegex.test(numeroRPPS.value)) {
+                showError(numeroRPPS, 'numeroRPPS-error');
+                isValid = false;
+            } else {
+                hideError(numeroRPPS, 'numeroRPPS-error');
+            }
+            
+            // Validation de l'email
+            const email = document.getElementById('email');
+            if (!email.value || !validateEmail(email.value)) {
+                showError(email, 'email-error');
+                isValid = false;
+            } else {
+                hideError(email, 'email-error');
+            }
+            
+            // Validation du téléphone
+            const telephone = document.getElementById('telephone');
+            const phoneRegex = /^[0-9]{10}$/;
+            if (!telephone.value || !phoneRegex.test(telephone.value)) {
+                showError(telephone, 'telephone-error');
+                isValid = false;
+            } else {
+                hideError(telephone, 'telephone-error');
+            }
+            
+            if (!isValid) {
+                event.preventDefault();
+                // Faire défiler jusqu'au premier champ erroné
+                const firstError = document.querySelector('.invalid');
+                if (firstError) {
+                    firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }
+        });
+        
+        function showError(inputElement, errorId) {
+            inputElement.classList.add('invalid');
+            document.getElementById(errorId).style.display = 'block';
+        }
+        
+        function hideError(inputElement, errorId) {
+            inputElement.classList.remove('invalid');
+            document.getElementById(errorId).style.display = 'none';
+        }
+        
+       
+        
+        // Formatage automatique du téléphone
+        document.getElementById('telephone').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length > 10) {
+                value = value.substring(0, 10);
+            }
+            e.target.value = value;
+        });
+        
+        // Formatage automatique du RPPS
+        document.getElementById('numeroRPPS').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length > 11) {
+                value = value.substring(0, 11);
+            }
+            e.target.value = value;
+        });
+    </script>
+</body>
+</html>

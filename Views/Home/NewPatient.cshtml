@@ -1,0 +1,476 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare - Nouveau Patient</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #4361ee;
+            --primary-dark: #3a56d4;
+            --secondary: #3f37c9;
+            --success: #4cc9f0;
+            --danger: #f72585;
+            --warning: #f8961e;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --light-gray: #e9ecef;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f5f7fb;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+        }
+
+        .logo i {
+            margin-right: 0.75rem;
+            font-size: 1.8rem;
+        }
+
+        .main-container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .page-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        .page-title {
+            font-size: 1.75rem;
+            color: var(--dark);
+            margin-left: 1rem;
+        }
+
+        .page-icon {
+            color: var(--primary);
+            font-size: 2rem;
+        }
+
+        .form-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+            padding: 2.5rem;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .form-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .form-header h2 {
+            color: var(--primary);
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .form-header p {
+            color: var(--gray);
+        }
+
+        .form-group {
+            margin-bottom: 1.75rem;
+        }
+
+        .form-row {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .form-row .form-group {
+            flex: 1;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+            color: var(--dark);
+        }
+
+        .form-label i {
+            margin-right: 0.5rem;
+            color: var(--primary);
+            width: 1.25rem;
+            text-align: center;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            border: 1px solid var(--light-gray);
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 0.2rem rgba(67, 97, 238, 0.25);
+            outline: none;
+        }
+
+        .form-text {
+            display: block;
+            margin-top: 0.25rem;
+            font-size: 0.875rem;
+            color: var(--gray);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.875rem 1.75rem;
+            background-color: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn i {
+            margin-right: 0.5rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-align: center;
+            width: 100%;
+        }
+
+        .back-link:hover {
+            color: var(--secondary);
+            text-decoration: underline;
+        }
+
+        .back-link i {
+            margin-right: 0.5rem;
+        }
+
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        .footer-text {
+            color: var(--light-gray);
+            font-size: 0.875rem;
+        }
+
+        /* Style pour les messages d'erreur */
+        .error-message {
+            color: var(--danger);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+            display: none;
+        }
+
+        .form-control.invalid {
+            border-color: var(--danger);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="@Url.Action("Index", "Home")" class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>MediCare</span>
+            </a>
+        </div>
+    </header>
+    
+    <main class="main-container">
+        <div class="page-header">
+            <i class="fas fa-user-injured page-icon"></i>
+            <h1 class="page-title">Nouveau Patient</h1>
+        </div>
+        
+        <div class="form-container">
+            <div class="form-header">
+                <h2><i class="fas fa-user-plus"></i> Formulaire d'Enregistrement</h2>
+                <p>Veuillez remplir toutes les informations requises pour le nouveau patient</p>
+            </div>
+            
+            <form id="patientForm" action="/patients" method="post" autocomplete="on" novalidate>
+                <div class="form-group">
+                    <label for="id" class="form-label">
+                        <i class="fas fa-id-card"></i> ID Patient
+                    </label>
+                    <input type="number" id="id" name="Id" class="form-control" required>
+                    <small class="form-text">Numéro unique d'identification du patient</small>
+                    <div class="error-message" id="id-error">Veuillez saisir un ID valide</div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="nom" class="form-label">
+                            <i class="fas fa-user"></i> Nom
+                        </label>
+                        <input type="text" id="nom" name="Nom" class="form-control" required autocomplete="family-name">
+                        <div class="error-message" id="nom-error">Veuillez saisir le nom du patient</div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="prenom" class="form-label">
+                            <i class="fas fa-user"></i> Prénom
+                        </label>
+                        <input type="text" id="prenom" name="Prenom" class="form-control" required autocomplete="given-name">
+                        <div class="error-message" id="prenom-error">Veuillez saisir le prénom du patient</div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="dateNaissance" class="form-label">
+                        <i class="fas fa-birthday-cake"></i> Date de Naissance
+                    </label>
+                    <input type="date" id="dateNaissance" name="DateNaissance" class="form-control" required>
+                    <div class="error-message" id="dateNaissance-error">Veuillez saisir une date de naissance valide</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="adresse" class="form-label">
+                        <i class="fas fa-map-marker-alt"></i> Adresse
+                    </label>
+                    <input type="text" id="adresse" name="Adresse" class="form-control" required autocomplete="street-address">
+                    <div class="error-message" id="adresse-error">Veuillez saisir l'adresse du patient</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="telephone" class="form-label">
+                        <i class="fas fa-phone"></i> Téléphone
+                    </label>
+                    <input type="tel" id="telephone" name="Telephone" class="form-control" required autocomplete="tel" pattern="[0-9]{10}">
+                    <small class="form-text">Format : 0612345678 (10 chiffres sans espace)</small>
+                    <div class="error-message" id="telephone-error">Veuillez saisir un numéro de téléphone valide</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">
+                        <i class="fas fa-envelope"></i> Email (optionnel)
+                    </label>
+                    <input type="email" id="email" name="Email" class="form-control" autocomplete="email">
+                    <div class="error-message" id="email-error">Veuillez saisir un email valide</div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="genre" class="form-label">
+                        <i class="fas fa-venus-mars"></i> Genre
+                    </label>
+                    <select id="genre" name="Genre" class="form-control" required>
+                        <option value="">Sélectionnez...</option>
+                        <option value="M">Masculin</option>
+                        <option value="F">Féminin</option>
+                        <option value="A">Autre</option>
+                    </select>
+                    <div class="error-message" id="genre-error">Veuillez sélectionner un genre</div>
+                </div>
+                
+                <button type="submit" class="btn">
+                    <i class="fas fa-save"></i> Enregistrer le Patient
+                </button>
+                
+                <a href="@Url.Action("Patient", "Home")" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Retour à la liste des patients
+                </a>
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <p class="footer-text">&copy; @DateTime.Now.Year MediCare. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Validation du formulaire
+        document.getElementById('patientForm').addEventListener('submit', function(event) {
+            let isValid = true;
+            
+            // Validation de l'ID
+            const id = document.getElementById('id');
+            if (!id.value || isNaN(id.value)) {
+                showError(id, 'id-error');
+                isValid = false;
+            } else {
+                hideError(id, 'id-error');
+            }
+            
+            // Validation du nom
+            const nom = document.getElementById('nom');
+            if (!nom.value.trim()) {
+                showError(nom, 'nom-error');
+                isValid = false;
+            } else {
+                hideError(nom, 'nom-error');
+            }
+            
+            // Validation du prénom
+            const prenom = document.getElementById('prenom');
+            if (!prenom.value.trim()) {
+                showError(prenom, 'prenom-error');
+                isValid = false;
+            } else {
+                hideError(prenom, 'prenom-error');
+            }
+            
+            // Validation de la date de naissance
+            const dateNaissance = document.getElementById('dateNaissance');
+            if (!dateNaissance.value) {
+                showError(dateNaissance, 'dateNaissance-error');
+                isValid = false;
+            } else {
+                hideError(dateNaissance, 'dateNaissance-error');
+            }
+            
+            // Validation de l'adresse
+            const adresse = document.getElementById('adresse');
+            if (!adresse.value.trim()) {
+                showError(adresse, 'adresse-error');
+                isValid = false;
+            } else {
+                hideError(adresse, 'adresse-error');
+            }
+            
+            // Validation du téléphone
+            const telephone = document.getElementById('telephone');
+            const phoneRegex = /^[0-9]{10}$/;
+            if (!telephone.value || !phoneRegex.test(telephone.value)) {
+                showError(telephone, 'telephone-error');
+                isValid = false;
+            } else {
+                hideError(telephone, 'telephone-error');
+            }
+            
+            // Validation de l'email (optionnel mais doit être valide si renseigné)
+            const email = document.getElementById('email');
+            if (email.value && !validateEmail(email.value)) {
+                showError(email, 'email-error');
+                isValid = false;
+            } else {
+                hideError(email, 'email-error');
+            }
+            
+            // Validation du genre
+            const genre = document.getElementById('genre');
+            if (!genre.value) {
+                showError(genre, 'genre-error');
+                isValid = false;
+            } else {
+                hideError(genre, 'genre-error');
+            }
+            
+            if (!isValid) {
+                event.preventDefault();
+                // Faire défiler jusqu'au premier champ erroné
+                const firstError = document.querySelector('.invalid');
+                if (firstError) {
+                    firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }
+        });
+        
+        function showError(inputElement, errorId) {
+            inputElement.classList.add('invalid');
+            document.getElementById(errorId).style.display = 'block';
+        }
+        
+        function hideError(inputElement, errorId) {
+            inputElement.classList.remove('invalid');
+            document.getElementById(errorId).style.display = 'none';
+        }
+        
+       
+        
+        // Formatage automatique du téléphone
+        document.getElementById('telephone').addEventListener('input', function(e) {
+            let value = e.target.value.replace(/\D/g, '');
+            if (value.length > 10) {
+                value = value.substring(0, 10);
+            }
+            e.target.value = value;
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
