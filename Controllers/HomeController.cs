@@ -12,46 +12,53 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
-    public IActionResult ApplicatoinUser()
-    {
-        return View();
-    }
-    
-    public IActionResult Medecin()
-    {
-        return View();
-    }
-    public IActionResult Patient(){
-        return View();
-    }
-    public IActionResult Prescription(){
-        return View();
-    }
-    public IActionResult RendezVous(){
-        return View();
-    }
 
     public IActionResult Index()
     {
         return View();
     }
     
+    public IActionResult SignUp()
+    {
+        return View();
+    }
+
     public IActionResult APropos()
     {
         return View();
     }
-    
-    public IActionResult ApplicationUser()
+
+    public IActionResult Medecin()
     {
         return View();
     }
-    
+
+    public IActionResult Patient()
+    {
+        return View();
+    }
+
+    public IActionResult Prescription()
+    {
+        return View();
+    }
+
+    public IActionResult RendezVous()
+    {
+        return View();
+    }
+
     public IActionResult DossiersMedicaux()
     {
         return View();
     }
-    
+
     public IActionResult NewPatient()
+    {
+        return View();
+    }
+
+    public IActionResult ApplicationUser()
     {
         return View();
     }

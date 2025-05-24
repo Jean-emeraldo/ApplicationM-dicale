@@ -1,0 +1,90 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare - Inscription</title>
+    <link rel="stylesheet" href="../css/SignUp.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+      <script src="../js/SignUp.js" asp-append-version="true"></script>
+  </head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="@Url.Action("Index", "Home")" class="logo">
+                <i class="fas fa-heartbeat"></i>
+                <span>MediCare</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="main-container">
+        <div class="auth-container">
+            <div id="signupForm" class="auth-form visible">
+                <div class="auth-header">
+                    <h1><i class="fas fa-user-plus"></i> Inscription</h1>
+                    <p>Créez votre compte MediCare</p>
+                </div>
+
+                <form id="signupFormAction" action="@Url.Action("NewPatient", "Home")" method="post" autocomplete="on">
+                    <div class="form-group">
+                        <label for="signupFullName" class="form-label">
+                            <i class="fas fa-user"></i> Nom Complet
+                        </label>
+                        <input type="text" id="signupFullName" name="FullName" class="form-control" required autocomplete="name">
+                        <div class="error-message" id="signupFullName-error">Veuillez saisir votre nom complet</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signupEmail" class="form-label">
+                            <i class="fas fa-envelope"></i> Adresse Email
+                        </label>
+                        <input type="email" id="signupEmail" name="Email" class="form-control" required autocomplete="email">
+                        <div class="error-message" id="signupEmail-error">Veuillez saisir une adresse email valide</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signupPassword" class="form-label">
+                            <i class="fas fa-lock"></i> Mot de passe
+                        </label>
+                        <div class="password-container">
+                            <input type="password" id="signupPassword" name="Password" class="form-control" required autocomplete="new-password">
+                            <i class="fas fa-eye toggle-password" id="toggleSignupPassword"></i>
+                        </div>
+                        <div class="error-message" id="signupPassword-error">Veuillez saisir votre mot de passe</div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="signupConfirmPassword" class="form-label">
+                            <i class="fas fa-lock"></i> Confirmer le mot de passe
+                        </label>
+                        <div class="password-container">
+                            <input type="password" id="signupConfirmPassword" name="ConfirmPassword" class="form-control" required autocomplete="new-password">
+                            <i class="fas fa-eye toggle-password" id="toggleSignupConfirmPassword"></i>
+                        </div>
+                        <div class="error-message" id="signupConfirmPassword-error">Les mots de passe ne correspondent pas</div>
+                    </div>
+
+                    <button type="submit" class="btn">
+                        <i class="fas fa-user-plus"></i> S'inscrire
+                    </button>
+
+                    <div class="switch-link">
+                        <span>Vous avez déjà un compte? <a href="@Url.Action("NewPatient", "Home")">Se connecter</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-text">&copy; @DateTime.Now.Year MediCare. Tous droits réservés.</div>
+    </footer>
+
+  </body>
+</html>

@@ -5,6 +5,46 @@
       "PackagePath": "staticwebassets/ApplicationMedicale.lelrqnk5kz.bundle.scp.css"
     },
     {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/APropos.css",
+      "PackagePath": "staticwebassets/css/APropos.css"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/ApplicationUser.css",
+      "PackagePath": "staticwebassets/css/ApplicationUser.css"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/DossierMedicaux.css",
+      "PackagePath": "staticwebassets/css/DossierMedicaux.css"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Medecien.css",
+      "PackagePath": "staticwebassets/css/Medecien.css"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/NewPatient.css",
+      "PackagePath": "staticwebassets/css/NewPatient.css"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Patient.css",
+      "PackagePath": "staticwebassets/css/Patient.css"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Prescription.css",
+      "PackagePath": "staticwebassets/css/Prescription.css"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/RendezVous.css",
+      "PackagePath": "staticwebassets/css/RendezVous.css"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/SignUp.css",
+      "PackagePath": "staticwebassets/css/SignUp.css"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/index.css",
+      "PackagePath": "staticwebassets/css/index.css"
+    },
+    {
       "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -43,6 +83,38 @@
     {
       "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/images/h.jpeg",
       "PackagePath": "staticwebassets/images/h.jpeg"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/APropos.js",
+      "PackagePath": "staticwebassets/js/APropos.js"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/ApplicationUser.js",
+      "PackagePath": "staticwebassets/js/ApplicationUser.js"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/DossierMedicaux.js",
+      "PackagePath": "staticwebassets/js/DossierMedicaux.js"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Medecien.js",
+      "PackagePath": "staticwebassets/js/Medecien.js"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/NewPatient.js",
+      "PackagePath": "staticwebassets/js/NewPatient.js"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Patient.js",
+      "PackagePath": "staticwebassets/js/Patient.js"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Prescription.js",
+      "PackagePath": "staticwebassets/js/Prescription.js"
+    },
+    {
+      "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/SignUp.js",
+      "PackagePath": "staticwebassets/js/SignUp.js"
     },
     {
       "Id": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/lib/bootstrap/LICENSE",

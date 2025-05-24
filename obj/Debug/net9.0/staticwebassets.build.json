@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FBfJad3jIyJDKeQ4zhU6n4JdyCC1TpPKagXSkuAzlLA=",
+  "Hash": "zHYwUsi/wffZOgvHWe7H2/n+oXTkGU0Wr1DpSLvCnUQ=",
   "Source": "ApplicationMedicale",
   "BasePath": "_content/ApplicationMedicale",
   "Mode": "Default",
@@ -1697,6 +1697,27 @@
       "OriginalItemSpec": "/home/homme/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/4ypheomkw0-rcwwk6hjvy.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/Prescription#[.{fingerprint=rcwwk6hjvy}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Prescription.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zz0b0hooz7",
+      "Integrity": "McKEIqJWiem7IJO4HUTLwB08cp5sp/6K25zG4dj3Wls=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Prescription.js"
+    },
+    {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/5y4mxqtz0u-rzd6atqjts.gz",
       "SourceId": "ApplicationMedicale",
       "SourceType": "Discovered",
@@ -1716,6 +1737,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/60x31uvr57-yuift2m8j8.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/DossierMedicaux#[.{fingerprint=yuift2m8j8}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/DossierMedicaux.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ug6rrwospj",
+      "Integrity": "gqumUi1NdwzwD7ABkGyEhTVPLpXrM5yGp3+AZAwLtMI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/DossierMedicaux.js"
     },
     {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/685yodv77y-0j3bgjxly4.gz",
@@ -1758,6 +1800,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6ksbov9op2-ly0l36b042.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/ApplicationUser#[.{fingerprint=ly0l36b042}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/ApplicationUser.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "j47nj79yt7",
+      "Integrity": "0wKnxB3Xe7xtNHjpkNDK3zpUcM3//jEL81mWEaZNtKQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/ApplicationUser.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6mmkzqlupc-pfe4htobbg.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/APropos#[.{fingerprint=pfe4htobbg}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/APropos.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5katx2jvti",
+      "Integrity": "SyybntCBTCb66KsPcBe0P6wZ1DQ91zKaG5Rw3tlbGZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/APropos.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6w3wx095pk-py0u85gc4d.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/RendezVous#[.{fingerprint=py0u85gc4d}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/RendezVous.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yzsgcn9g16",
+      "Integrity": "zs4ILHs39bpEVc+SIqVTgM046kvdPTzWnAwyim3OFg0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/RendezVous.css"
     },
     {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/7o8oyvng68-tdbxkamptv.gz",
@@ -1949,6 +2054,27 @@
       "OriginalItemSpec": "/home/homme/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.4/staticwebassets/V5/lib/jquery/dist/jquery.slim.js"
     },
     {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/aimu0k0zzl-lgkcz2tlvv.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/Prescription#[.{fingerprint=lgkcz2tlvv}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Prescription.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "m8zg55oi3x",
+      "Integrity": "Zm/y8apKPH4Awv7MOSwhxLsdflVGZiu4F/clt3LHp+4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Prescription.css"
+    },
+    {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/b9lhb08218-ttgo8qnofa.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -2052,6 +2178,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/c8qe4b6o7x-swc1pd9as6.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/APropos#[.{fingerprint=swc1pd9as6}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/APropos.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "n57gwhm25x",
+      "Integrity": "O2zVSdbK9ttm5yoBVF3PONwGJuY+SsKYINwW39i5xLY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/APropos.js"
     },
     {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/ci51fir1sm-dxx9fxp4il.gz",
@@ -2178,6 +2325,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/dq90yeilrq-jceooaksyz.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/index#[.{fingerprint=jceooaksyz}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/index.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "bos38x3poq",
+      "Integrity": "FbBvYzeQH3jZ9etB78LCKelhTfHTpUJMHmgVpf6xYL8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/index.css"
     },
     {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/eb27mqwgz2-erw9l3u2r3.gz",
@@ -2348,6 +2516,27 @@
       "OriginalItemSpec": "/home/homme/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/hc1ltlemeb-wl98mmiwzu.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/Medecien#[.{fingerprint=wl98mmiwzu}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Medecien.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "suttfyhsjz",
+      "Integrity": "nHySNa/d7zrB4BlP7Yf/8OW8wIBdq6mCiUpkRqWR9Ig=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Medecien.css"
+    },
+    {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/hfdpc2y9jc-6cfz1n2cew.gz",
       "SourceId": "ApplicationMedicale",
       "SourceType": "Discovered",
@@ -2451,6 +2640,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/homme/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/inj6pc0g8h-03sk3gsev5.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/Medecien#[.{fingerprint=03sk3gsev5}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Medecien.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "0sb4tmxfem",
+      "Integrity": "oDmBEkk+1LVxuRiaDsey+zPDWArcOwiQ6LG7OYgFAqE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Medecien.js"
     },
     {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/ivy2s9gwh5-iovd86k7lj.gz",
@@ -2579,6 +2789,27 @@
       "OriginalItemSpec": "/home/homme/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.4/staticwebassets/V5/favicon.ico"
     },
     {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/ju1idgtmwe-wi62vqt8uw.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/Patient#[.{fingerprint=wi62vqt8uw}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Patient.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "d79y7jncqd",
+      "Integrity": "55lGH4lvOEjnmsLgnqr6ehqfa/cSlIIxkTYSwV9sKIc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Patient.js"
+    },
+    {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/k8b25g0zwc-b7pk76d08c.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -2619,6 +2850,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/kx4szb3iwf-r8eokowjzt.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/SignUp#[.{fingerprint=r8eokowjzt}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/SignUp.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "6v36y3vy0g",
+      "Integrity": "7uiMRwEpjvLfQmJyXSINFmSpbiwVkiVgZcNFoL1LdK0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/SignUp.js"
     },
     {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/l186vlgaag-37tfw0ft22.gz",
@@ -2934,6 +3186,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/homme/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.4/staticwebassets/V5/css/site.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/orin7ix9hy-ftynzhwj3i.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/DossierMedicaux#[.{fingerprint=ftynzhwj3i}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/DossierMedicaux.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "1pmvlyj4or",
+      "Integrity": "pbGFXD5pZSxPzVPvQO2vAAZEHAScEn+f2j7cLs4z3IU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/DossierMedicaux.css"
     },
     {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/oxk5o6czdw-fvhpjtyr6v.gz",
@@ -3419,6 +3692,27 @@
       "OriginalItemSpec": "/home/homme/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.4/staticwebassets/V5/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/tizlfbvpod-ovk2hynm8r.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/NewPatient#[.{fingerprint=ovk2hynm8r}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/NewPatient.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nnhqu28dzk",
+      "Integrity": "48E9zbi0zFl4AXKaX1in7h40gLIWTw8trAiRM3oY8Mk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/NewPatient.css"
+    },
+    {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/tpsq5dibur-0i3buxo5is.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -3629,6 +3923,27 @@
       "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/v8o4ojlw5q-se9zbztcaw.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/Patient#[.{fingerprint=se9zbztcaw}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Patient.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wisyzcu86u",
+      "Integrity": "6FftnVNN+WNElwLh6BpH0VPSTagLE9Z0mFcjfkYJZP0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Patient.css"
+    },
+    {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/vltxs1u3vm-xtxxf3hu2r.gz",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
@@ -3648,6 +3963,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/homme/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.4/staticwebassets/V5/js/site.js"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/vm1kp59ury-65l18f68sv.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/SignUp#[.{fingerprint=65l18f68sv}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/SignUp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "dn2bgpx26u",
+      "Integrity": "KYZHHheOrW4tVfrh2GMBtblryEcpoWOovbqVLRmx0/E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/SignUp.css"
     },
     {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/vsrbd71spn-lcd1t2u6c8.gz",
@@ -3732,6 +4068,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/homme/.nuget/packages/microsoft.aspnetcore.identity.ui/9.0.4/staticwebassets/V5/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xchlb13gor-83pf81mng1.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/ApplicationUser#[.{fingerprint=83pf81mng1}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/ApplicationUser.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "g72zlhtawo",
+      "Integrity": "FKHUG3pX03HcJ803eLIv8/ik+3E6a7VhjY0wS2Vq1qg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/ApplicationUser.js"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xkgvcl2gxd-nx4wfhi5np.gz",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/NewPatient#[.{fingerprint=nx4wfhi5np}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/NewPatient.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pm68kb1zqf",
+      "Integrity": "kUNDduXgr6l5RXx1d6VI0SLjcREW/qvqmQKFNHz/x9M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/NewPatient.js"
     },
     {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xkmeusk3wd-muycvpuwrr.gz",
@@ -4007,6 +4385,216 @@
       "OriginalItemSpec": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/scopedcss/projectbundle/ApplicationMedicale.bundle.scp.css"
     },
     {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/ApplicationUser.css",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/ApplicationUser#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ly0l36b042",
+      "Integrity": "HWN99JRfbUIz3cOVZOhh5chDj38s2Thl0fFlWbO5UGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/ApplicationUser.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/APropos.css",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/APropos#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pfe4htobbg",
+      "Integrity": "Fads4f1LhOYd8sYKQeU4kRncvLzZd+t3QVWWIrTwEGU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/APropos.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/DossierMedicaux.css",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/DossierMedicaux#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ftynzhwj3i",
+      "Integrity": "/UjNVlueR2qr+JsNwSeQsD1aOk1TkMcJZTgyG2fm0tc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/DossierMedicaux.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/index.css",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/index#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jceooaksyz",
+      "Integrity": "ox79BZ2t5W9Hrfr3GstFXiHko6BFzKkJkG7d5VFCQ9M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/index.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Medecien.css",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/Medecien#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wl98mmiwzu",
+      "Integrity": "pPDV1VMKo7YYXX4n5rKElPL6pCFrh0E0AfGOrwaoV30=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/Medecien.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/NewPatient.css",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/NewPatient#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ovk2hynm8r",
+      "Integrity": "zMDogI/W82DBcm+mSt7Wzd3HAwhf7asuGPDNSmE624s=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/NewPatient.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Patient.css",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/Patient#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "se9zbztcaw",
+      "Integrity": "ZEHhOdklNptXnoO9auG8QZ7iMdN8s2apOkw+8RbS6Xg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/Patient.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Prescription.css",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/Prescription#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lgkcz2tlvv",
+      "Integrity": "lU26XLFlA48dZfZufQHgWSGzv95iUb0rt2RwqXp8eIE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/Prescription.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/RendezVous.css",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/RendezVous#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "py0u85gc4d",
+      "Integrity": "YZxLiDvBW5oVIFqenaanzfe7peO7aQlX9g970ZZI3NE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/RendezVous.css"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/SignUp.css",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "css/SignUp#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "65l18f68sv",
+      "Integrity": "ttoNhSkqvASMWwHppaFbhXRKelqg1SdzO/fRy20fv/8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/SignUp.css"
+    },
+    {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/site.css",
       "SourceId": "ApplicationMedicale",
       "SourceType": "Discovered",
@@ -4215,6 +4803,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/h.jpeg"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/ApplicationUser.js",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/ApplicationUser#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "83pf81mng1",
+      "Integrity": "xPh52pcawxlq8y8JT60QWAEv/mW2WexnXXte0Fy03rI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/ApplicationUser.js"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/APropos.js",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/APropos#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "swc1pd9as6",
+      "Integrity": "nBQGU5pm8Xo+9BtBB/FZiEAYsa69GEDh0iB75Yw3Vx4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/APropos.js"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/DossierMedicaux.js",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/DossierMedicaux#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yuift2m8j8",
+      "Integrity": "xg24ItQmXzDqvDS+7H3kGwQ1w+30vu0tcCEQb4FmErA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/DossierMedicaux.js"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Medecien.js",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/Medecien#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "03sk3gsev5",
+      "Integrity": "LC7Wwkg8uK92lR9wK1J5ZkkjbVjcf60ATCwCW74yYM8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/Medecien.js"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/NewPatient.js",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/NewPatient#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nx4wfhi5np",
+      "Integrity": "+5MdEy/krtE+x04jh0gGBR5Fc+ye5Z+tuPFEE7Bht0A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/NewPatient.js"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Patient.js",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/Patient#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wi62vqt8uw",
+      "Integrity": "iIQl6uKhwCI7dqwm4UqWcdS26L2H4tlKRNUUkGneQ8k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/Patient.js"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Prescription.js",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/Prescription#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rcwwk6hjvy",
+      "Integrity": "y6ctAAHGNXxkhEpalbq3ZKieHQ9mbTXhPt0z3UxkSkA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/Prescription.js"
+    },
+    {
+      "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/SignUp.js",
+      "SourceId": "ApplicationMedicale",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/",
+      "BasePath": "_content/ApplicationMedicale",
+      "RelativePath": "js/SignUp#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r8eokowjzt",
+      "Integrity": "GxK5lejcvds2Fr6vzLFyeQnBr02lA+KioEBzB5KZ9gQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/SignUp.js"
     },
     {
       "Identity": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
@@ -6071,6 +6827,2986 @@
         {
           "Name": "integrity",
           "Value": "sha256-chFdezdr4nZzwxvjW5kkKgWbGOx2hsY4ulBXdrcSjV8="
+        }
+      ]
+    },
+    {
+      "Route": "css/ApplicationUser.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6ksbov9op2-ly0l36b042.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000380662352"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2626"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0wKnxB3Xe7xtNHjpkNDK3zpUcM3//jEL81mWEaZNtKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:11:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HWN99JRfbUIz3cOVZOhh5chDj38s2Thl0fFlWbO5UGE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HWN99JRfbUIz3cOVZOhh5chDj38s2Thl0fFlWbO5UGE="
+        }
+      ]
+    },
+    {
+      "Route": "css/ApplicationUser.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/ApplicationUser.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HWN99JRfbUIz3cOVZOhh5chDj38s2Thl0fFlWbO5UGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:11:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HWN99JRfbUIz3cOVZOhh5chDj38s2Thl0fFlWbO5UGE="
+        }
+      ]
+    },
+    {
+      "Route": "css/ApplicationUser.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6ksbov9op2-ly0l36b042.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0wKnxB3Xe7xtNHjpkNDK3zpUcM3//jEL81mWEaZNtKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:11:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0wKnxB3Xe7xtNHjpkNDK3zpUcM3//jEL81mWEaZNtKQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/ApplicationUser.ly0l36b042.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6ksbov9op2-ly0l36b042.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000380662352"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2626"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0wKnxB3Xe7xtNHjpkNDK3zpUcM3//jEL81mWEaZNtKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:11:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HWN99JRfbUIz3cOVZOhh5chDj38s2Thl0fFlWbO5UGE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ly0l36b042"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ApplicationUser.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HWN99JRfbUIz3cOVZOhh5chDj38s2Thl0fFlWbO5UGE="
+        }
+      ]
+    },
+    {
+      "Route": "css/ApplicationUser.ly0l36b042.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/ApplicationUser.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16802"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HWN99JRfbUIz3cOVZOhh5chDj38s2Thl0fFlWbO5UGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:11:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ly0l36b042"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ApplicationUser.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HWN99JRfbUIz3cOVZOhh5chDj38s2Thl0fFlWbO5UGE="
+        }
+      ]
+    },
+    {
+      "Route": "css/ApplicationUser.ly0l36b042.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6ksbov9op2-ly0l36b042.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0wKnxB3Xe7xtNHjpkNDK3zpUcM3//jEL81mWEaZNtKQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:11:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ly0l36b042"
+        },
+        {
+          "Name": "label",
+          "Value": "css/ApplicationUser.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0wKnxB3Xe7xtNHjpkNDK3zpUcM3//jEL81mWEaZNtKQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/APropos.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6mmkzqlupc-pfe4htobbg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000528262018"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1892"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SyybntCBTCb66KsPcBe0P6wZ1DQ91zKaG5Rw3tlbGZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:13:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Fads4f1LhOYd8sYKQeU4kRncvLzZd+t3QVWWIrTwEGU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fads4f1LhOYd8sYKQeU4kRncvLzZd+t3QVWWIrTwEGU="
+        }
+      ]
+    },
+    {
+      "Route": "css/APropos.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/APropos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fads4f1LhOYd8sYKQeU4kRncvLzZd+t3QVWWIrTwEGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:13:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fads4f1LhOYd8sYKQeU4kRncvLzZd+t3QVWWIrTwEGU="
+        }
+      ]
+    },
+    {
+      "Route": "css/APropos.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6mmkzqlupc-pfe4htobbg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SyybntCBTCb66KsPcBe0P6wZ1DQ91zKaG5Rw3tlbGZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:13:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SyybntCBTCb66KsPcBe0P6wZ1DQ91zKaG5Rw3tlbGZE="
+        }
+      ]
+    },
+    {
+      "Route": "css/APropos.pfe4htobbg.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6mmkzqlupc-pfe4htobbg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000528262018"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1892"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SyybntCBTCb66KsPcBe0P6wZ1DQ91zKaG5Rw3tlbGZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:13:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Fads4f1LhOYd8sYKQeU4kRncvLzZd+t3QVWWIrTwEGU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pfe4htobbg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/APropos.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fads4f1LhOYd8sYKQeU4kRncvLzZd+t3QVWWIrTwEGU="
+        }
+      ]
+    },
+    {
+      "Route": "css/APropos.pfe4htobbg.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/APropos.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Fads4f1LhOYd8sYKQeU4kRncvLzZd+t3QVWWIrTwEGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:13:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pfe4htobbg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/APropos.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Fads4f1LhOYd8sYKQeU4kRncvLzZd+t3QVWWIrTwEGU="
+        }
+      ]
+    },
+    {
+      "Route": "css/APropos.pfe4htobbg.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6mmkzqlupc-pfe4htobbg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SyybntCBTCb66KsPcBe0P6wZ1DQ91zKaG5Rw3tlbGZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:13:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pfe4htobbg"
+        },
+        {
+          "Name": "label",
+          "Value": "css/APropos.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SyybntCBTCb66KsPcBe0P6wZ1DQ91zKaG5Rw3tlbGZE="
+        }
+      ]
+    },
+    {
+      "Route": "css/DossierMedicaux.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/orin7ix9hy-ftynzhwj3i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000516528926"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1935"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pbGFXD5pZSxPzVPvQO2vAAZEHAScEn+f2j7cLs4z3IU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/UjNVlueR2qr+JsNwSeQsD1aOk1TkMcJZTgyG2fm0tc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/UjNVlueR2qr+JsNwSeQsD1aOk1TkMcJZTgyG2fm0tc="
+        }
+      ]
+    },
+    {
+      "Route": "css/DossierMedicaux.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/DossierMedicaux.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/UjNVlueR2qr+JsNwSeQsD1aOk1TkMcJZTgyG2fm0tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/UjNVlueR2qr+JsNwSeQsD1aOk1TkMcJZTgyG2fm0tc="
+        }
+      ]
+    },
+    {
+      "Route": "css/DossierMedicaux.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/orin7ix9hy-ftynzhwj3i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pbGFXD5pZSxPzVPvQO2vAAZEHAScEn+f2j7cLs4z3IU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pbGFXD5pZSxPzVPvQO2vAAZEHAScEn+f2j7cLs4z3IU="
+        }
+      ]
+    },
+    {
+      "Route": "css/DossierMedicaux.ftynzhwj3i.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/orin7ix9hy-ftynzhwj3i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000516528926"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1935"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pbGFXD5pZSxPzVPvQO2vAAZEHAScEn+f2j7cLs4z3IU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/UjNVlueR2qr+JsNwSeQsD1aOk1TkMcJZTgyG2fm0tc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ftynzhwj3i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DossierMedicaux.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/UjNVlueR2qr+JsNwSeQsD1aOk1TkMcJZTgyG2fm0tc="
+        }
+      ]
+    },
+    {
+      "Route": "css/DossierMedicaux.ftynzhwj3i.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/DossierMedicaux.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/UjNVlueR2qr+JsNwSeQsD1aOk1TkMcJZTgyG2fm0tc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ftynzhwj3i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DossierMedicaux.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/UjNVlueR2qr+JsNwSeQsD1aOk1TkMcJZTgyG2fm0tc="
+        }
+      ]
+    },
+    {
+      "Route": "css/DossierMedicaux.ftynzhwj3i.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/orin7ix9hy-ftynzhwj3i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pbGFXD5pZSxPzVPvQO2vAAZEHAScEn+f2j7cLs4z3IU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ftynzhwj3i"
+        },
+        {
+          "Name": "label",
+          "Value": "css/DossierMedicaux.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pbGFXD5pZSxPzVPvQO2vAAZEHAScEn+f2j7cLs4z3IU="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/dq90yeilrq-jceooaksyz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000641025641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1559"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FbBvYzeQH3jZ9etB78LCKelhTfHTpUJMHmgVpf6xYL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:18:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ox79BZ2t5W9Hrfr3GstFXiHko6BFzKkJkG7d5VFCQ9M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox79BZ2t5W9Hrfr3GstFXiHko6BFzKkJkG7d5VFCQ9M="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox79BZ2t5W9Hrfr3GstFXiHko6BFzKkJkG7d5VFCQ9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:18:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox79BZ2t5W9Hrfr3GstFXiHko6BFzKkJkG7d5VFCQ9M="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/dq90yeilrq-jceooaksyz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FbBvYzeQH3jZ9etB78LCKelhTfHTpUJMHmgVpf6xYL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:18:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FbBvYzeQH3jZ9etB78LCKelhTfHTpUJMHmgVpf6xYL8="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.jceooaksyz.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/dq90yeilrq-jceooaksyz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000641025641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1559"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FbBvYzeQH3jZ9etB78LCKelhTfHTpUJMHmgVpf6xYL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:18:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ox79BZ2t5W9Hrfr3GstFXiHko6BFzKkJkG7d5VFCQ9M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jceooaksyz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox79BZ2t5W9Hrfr3GstFXiHko6BFzKkJkG7d5VFCQ9M="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.jceooaksyz.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/index.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ox79BZ2t5W9Hrfr3GstFXiHko6BFzKkJkG7d5VFCQ9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:18:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jceooaksyz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ox79BZ2t5W9Hrfr3GstFXiHko6BFzKkJkG7d5VFCQ9M="
+        }
+      ]
+    },
+    {
+      "Route": "css/index.jceooaksyz.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/dq90yeilrq-jceooaksyz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1559"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FbBvYzeQH3jZ9etB78LCKelhTfHTpUJMHmgVpf6xYL8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:18:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jceooaksyz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/index.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FbBvYzeQH3jZ9etB78LCKelhTfHTpUJMHmgVpf6xYL8="
+        }
+      ]
+    },
+    {
+      "Route": "css/Medecien.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/hc1ltlemeb-wl98mmiwzu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000752445448"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1328"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHySNa/d7zrB4BlP7Yf/8OW8wIBdq6mCiUpkRqWR9Ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:20:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pPDV1VMKo7YYXX4n5rKElPL6pCFrh0E0AfGOrwaoV30=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pPDV1VMKo7YYXX4n5rKElPL6pCFrh0E0AfGOrwaoV30="
+        }
+      ]
+    },
+    {
+      "Route": "css/Medecien.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Medecien.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pPDV1VMKo7YYXX4n5rKElPL6pCFrh0E0AfGOrwaoV30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:20:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pPDV1VMKo7YYXX4n5rKElPL6pCFrh0E0AfGOrwaoV30="
+        }
+      ]
+    },
+    {
+      "Route": "css/Medecien.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/hc1ltlemeb-wl98mmiwzu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHySNa/d7zrB4BlP7Yf/8OW8wIBdq6mCiUpkRqWR9Ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:20:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nHySNa/d7zrB4BlP7Yf/8OW8wIBdq6mCiUpkRqWR9Ig="
+        }
+      ]
+    },
+    {
+      "Route": "css/Medecien.wl98mmiwzu.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/hc1ltlemeb-wl98mmiwzu.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000752445448"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1328"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHySNa/d7zrB4BlP7Yf/8OW8wIBdq6mCiUpkRqWR9Ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:20:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"pPDV1VMKo7YYXX4n5rKElPL6pCFrh0E0AfGOrwaoV30=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wl98mmiwzu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Medecien.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pPDV1VMKo7YYXX4n5rKElPL6pCFrh0E0AfGOrwaoV30="
+        }
+      ]
+    },
+    {
+      "Route": "css/Medecien.wl98mmiwzu.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Medecien.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5878"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pPDV1VMKo7YYXX4n5rKElPL6pCFrh0E0AfGOrwaoV30=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:20:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wl98mmiwzu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Medecien.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pPDV1VMKo7YYXX4n5rKElPL6pCFrh0E0AfGOrwaoV30="
+        }
+      ]
+    },
+    {
+      "Route": "css/Medecien.wl98mmiwzu.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/hc1ltlemeb-wl98mmiwzu.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1328"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nHySNa/d7zrB4BlP7Yf/8OW8wIBdq6mCiUpkRqWR9Ig=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:20:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wl98mmiwzu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Medecien.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nHySNa/d7zrB4BlP7Yf/8OW8wIBdq6mCiUpkRqWR9Ig="
+        }
+      ]
+    },
+    {
+      "Route": "css/NewPatient.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/tizlfbvpod-ovk2hynm8r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000784929356"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1273"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"48E9zbi0zFl4AXKaX1in7h40gLIWTw8trAiRM3oY8Mk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:21:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zMDogI/W82DBcm+mSt7Wzd3HAwhf7asuGPDNSmE624s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zMDogI/W82DBcm+mSt7Wzd3HAwhf7asuGPDNSmE624s="
+        }
+      ]
+    },
+    {
+      "Route": "css/NewPatient.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/NewPatient.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zMDogI/W82DBcm+mSt7Wzd3HAwhf7asuGPDNSmE624s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:21:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zMDogI/W82DBcm+mSt7Wzd3HAwhf7asuGPDNSmE624s="
+        }
+      ]
+    },
+    {
+      "Route": "css/NewPatient.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/tizlfbvpod-ovk2hynm8r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"48E9zbi0zFl4AXKaX1in7h40gLIWTw8trAiRM3oY8Mk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:21:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-48E9zbi0zFl4AXKaX1in7h40gLIWTw8trAiRM3oY8Mk="
+        }
+      ]
+    },
+    {
+      "Route": "css/NewPatient.ovk2hynm8r.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/tizlfbvpod-ovk2hynm8r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000784929356"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1273"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"48E9zbi0zFl4AXKaX1in7h40gLIWTw8trAiRM3oY8Mk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:21:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zMDogI/W82DBcm+mSt7Wzd3HAwhf7asuGPDNSmE624s=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ovk2hynm8r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/NewPatient.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zMDogI/W82DBcm+mSt7Wzd3HAwhf7asuGPDNSmE624s="
+        }
+      ]
+    },
+    {
+      "Route": "css/NewPatient.ovk2hynm8r.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/NewPatient.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6349"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zMDogI/W82DBcm+mSt7Wzd3HAwhf7asuGPDNSmE624s=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:21:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ovk2hynm8r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/NewPatient.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zMDogI/W82DBcm+mSt7Wzd3HAwhf7asuGPDNSmE624s="
+        }
+      ]
+    },
+    {
+      "Route": "css/NewPatient.ovk2hynm8r.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/tizlfbvpod-ovk2hynm8r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"48E9zbi0zFl4AXKaX1in7h40gLIWTw8trAiRM3oY8Mk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:21:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ovk2hynm8r"
+        },
+        {
+          "Name": "label",
+          "Value": "css/NewPatient.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-48E9zbi0zFl4AXKaX1in7h40gLIWTw8trAiRM3oY8Mk="
+        }
+      ]
+    },
+    {
+      "Route": "css/Patient.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/v8o4ojlw5q-se9zbztcaw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000516262261"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1936"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6FftnVNN+WNElwLh6BpH0VPSTagLE9Z0mFcjfkYJZP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZEHhOdklNptXnoO9auG8QZ7iMdN8s2apOkw+8RbS6Xg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEHhOdklNptXnoO9auG8QZ7iMdN8s2apOkw+8RbS6Xg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Patient.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Patient.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEHhOdklNptXnoO9auG8QZ7iMdN8s2apOkw+8RbS6Xg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEHhOdklNptXnoO9auG8QZ7iMdN8s2apOkw+8RbS6Xg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Patient.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/v8o4ojlw5q-se9zbztcaw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6FftnVNN+WNElwLh6BpH0VPSTagLE9Z0mFcjfkYJZP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6FftnVNN+WNElwLh6BpH0VPSTagLE9Z0mFcjfkYJZP0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Patient.se9zbztcaw.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/v8o4ojlw5q-se9zbztcaw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000516262261"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1936"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6FftnVNN+WNElwLh6BpH0VPSTagLE9Z0mFcjfkYJZP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZEHhOdklNptXnoO9auG8QZ7iMdN8s2apOkw+8RbS6Xg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "se9zbztcaw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Patient.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEHhOdklNptXnoO9auG8QZ7iMdN8s2apOkw+8RbS6Xg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Patient.se9zbztcaw.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Patient.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZEHhOdklNptXnoO9auG8QZ7iMdN8s2apOkw+8RbS6Xg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "se9zbztcaw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Patient.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZEHhOdklNptXnoO9auG8QZ7iMdN8s2apOkw+8RbS6Xg="
+        }
+      ]
+    },
+    {
+      "Route": "css/Patient.se9zbztcaw.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/v8o4ojlw5q-se9zbztcaw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6FftnVNN+WNElwLh6BpH0VPSTagLE9Z0mFcjfkYJZP0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:23:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "se9zbztcaw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Patient.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6FftnVNN+WNElwLh6BpH0VPSTagLE9Z0mFcjfkYJZP0="
+        }
+      ]
+    },
+    {
+      "Route": "css/Prescription.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/aimu0k0zzl-lgkcz2tlvv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000851788756"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1173"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zm/y8apKPH4Awv7MOSwhxLsdflVGZiu4F/clt3LHp+4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:25:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lU26XLFlA48dZfZufQHgWSGzv95iUb0rt2RwqXp8eIE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lU26XLFlA48dZfZufQHgWSGzv95iUb0rt2RwqXp8eIE="
+        }
+      ]
+    },
+    {
+      "Route": "css/Prescription.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Prescription.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lU26XLFlA48dZfZufQHgWSGzv95iUb0rt2RwqXp8eIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:25:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lU26XLFlA48dZfZufQHgWSGzv95iUb0rt2RwqXp8eIE="
+        }
+      ]
+    },
+    {
+      "Route": "css/Prescription.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/aimu0k0zzl-lgkcz2tlvv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zm/y8apKPH4Awv7MOSwhxLsdflVGZiu4F/clt3LHp+4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:25:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zm/y8apKPH4Awv7MOSwhxLsdflVGZiu4F/clt3LHp+4="
+        }
+      ]
+    },
+    {
+      "Route": "css/Prescription.lgkcz2tlvv.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/aimu0k0zzl-lgkcz2tlvv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000851788756"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1173"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zm/y8apKPH4Awv7MOSwhxLsdflVGZiu4F/clt3LHp+4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:25:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lU26XLFlA48dZfZufQHgWSGzv95iUb0rt2RwqXp8eIE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lgkcz2tlvv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Prescription.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lU26XLFlA48dZfZufQHgWSGzv95iUb0rt2RwqXp8eIE="
+        }
+      ]
+    },
+    {
+      "Route": "css/Prescription.lgkcz2tlvv.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/Prescription.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lU26XLFlA48dZfZufQHgWSGzv95iUb0rt2RwqXp8eIE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:25:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lgkcz2tlvv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Prescription.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lU26XLFlA48dZfZufQHgWSGzv95iUb0rt2RwqXp8eIE="
+        }
+      ]
+    },
+    {
+      "Route": "css/Prescription.lgkcz2tlvv.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/aimu0k0zzl-lgkcz2tlvv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zm/y8apKPH4Awv7MOSwhxLsdflVGZiu4F/clt3LHp+4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:25:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lgkcz2tlvv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/Prescription.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zm/y8apKPH4Awv7MOSwhxLsdflVGZiu4F/clt3LHp+4="
+        }
+      ]
+    },
+    {
+      "Route": "css/RendezVous.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6w3wx095pk-py0u85gc4d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001156069364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "864"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zs4ILHs39bpEVc+SIqVTgM046kvdPTzWnAwyim3OFg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:28:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YZxLiDvBW5oVIFqenaanzfe7peO7aQlX9g970ZZI3NE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YZxLiDvBW5oVIFqenaanzfe7peO7aQlX9g970ZZI3NE="
+        }
+      ]
+    },
+    {
+      "Route": "css/RendezVous.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/RendezVous.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2965"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YZxLiDvBW5oVIFqenaanzfe7peO7aQlX9g970ZZI3NE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:28:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YZxLiDvBW5oVIFqenaanzfe7peO7aQlX9g970ZZI3NE="
+        }
+      ]
+    },
+    {
+      "Route": "css/RendezVous.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6w3wx095pk-py0u85gc4d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zs4ILHs39bpEVc+SIqVTgM046kvdPTzWnAwyim3OFg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:28:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zs4ILHs39bpEVc+SIqVTgM046kvdPTzWnAwyim3OFg0="
+        }
+      ]
+    },
+    {
+      "Route": "css/RendezVous.py0u85gc4d.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6w3wx095pk-py0u85gc4d.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001156069364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "864"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zs4ILHs39bpEVc+SIqVTgM046kvdPTzWnAwyim3OFg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:28:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"YZxLiDvBW5oVIFqenaanzfe7peO7aQlX9g970ZZI3NE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "py0u85gc4d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/RendezVous.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YZxLiDvBW5oVIFqenaanzfe7peO7aQlX9g970ZZI3NE="
+        }
+      ]
+    },
+    {
+      "Route": "css/RendezVous.py0u85gc4d.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/RendezVous.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2965"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YZxLiDvBW5oVIFqenaanzfe7peO7aQlX9g970ZZI3NE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:28:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "py0u85gc4d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/RendezVous.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YZxLiDvBW5oVIFqenaanzfe7peO7aQlX9g970ZZI3NE="
+        }
+      ]
+    },
+    {
+      "Route": "css/RendezVous.py0u85gc4d.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/6w3wx095pk-py0u85gc4d.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zs4ILHs39bpEVc+SIqVTgM046kvdPTzWnAwyim3OFg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:28:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "py0u85gc4d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/RendezVous.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zs4ILHs39bpEVc+SIqVTgM046kvdPTzWnAwyim3OFg0="
+        }
+      ]
+    },
+    {
+      "Route": "css/SignUp.65l18f68sv.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/vm1kp59ury-65l18f68sv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000810372771"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1233"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KYZHHheOrW4tVfrh2GMBtblryEcpoWOovbqVLRmx0/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ttoNhSkqvASMWwHppaFbhXRKelqg1SdzO/fRy20fv/8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "65l18f68sv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/SignUp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ttoNhSkqvASMWwHppaFbhXRKelqg1SdzO/fRy20fv/8="
+        }
+      ]
+    },
+    {
+      "Route": "css/SignUp.65l18f68sv.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/SignUp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ttoNhSkqvASMWwHppaFbhXRKelqg1SdzO/fRy20fv/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "65l18f68sv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/SignUp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ttoNhSkqvASMWwHppaFbhXRKelqg1SdzO/fRy20fv/8="
+        }
+      ]
+    },
+    {
+      "Route": "css/SignUp.65l18f68sv.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/vm1kp59ury-65l18f68sv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KYZHHheOrW4tVfrh2GMBtblryEcpoWOovbqVLRmx0/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "65l18f68sv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/SignUp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KYZHHheOrW4tVfrh2GMBtblryEcpoWOovbqVLRmx0/E="
+        }
+      ]
+    },
+    {
+      "Route": "css/SignUp.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/vm1kp59ury-65l18f68sv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000810372771"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1233"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KYZHHheOrW4tVfrh2GMBtblryEcpoWOovbqVLRmx0/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ttoNhSkqvASMWwHppaFbhXRKelqg1SdzO/fRy20fv/8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ttoNhSkqvASMWwHppaFbhXRKelqg1SdzO/fRy20fv/8="
+        }
+      ]
+    },
+    {
+      "Route": "css/SignUp.css",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/css/SignUp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4518"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ttoNhSkqvASMWwHppaFbhXRKelqg1SdzO/fRy20fv/8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ttoNhSkqvASMWwHppaFbhXRKelqg1SdzO/fRy20fv/8="
+        }
+      ]
+    },
+    {
+      "Route": "css/SignUp.css.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/vm1kp59ury-65l18f68sv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1233"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KYZHHheOrW4tVfrh2GMBtblryEcpoWOovbqVLRmx0/E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KYZHHheOrW4tVfrh2GMBtblryEcpoWOovbqVLRmx0/E="
         }
       ]
     },
@@ -15928,6 +19664,2390 @@
         {
           "Name": "integrity",
           "Value": "sha256-PjGlZ9OlH9KgcOlAM7C3KBB+8mOpNBPu1p2tfiOAef4="
+        }
+      ]
+    },
+    {
+      "Route": "js/ApplicationUser.83pf81mng1.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xchlb13gor-83pf81mng1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000317662008"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3147"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FKHUG3pX03HcJ803eLIv8/ik+3E6a7VhjY0wS2Vq1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:39:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xPh52pcawxlq8y8JT60QWAEv/mW2WexnXXte0Fy03rI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "83pf81mng1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/ApplicationUser.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xPh52pcawxlq8y8JT60QWAEv/mW2WexnXXte0Fy03rI="
+        }
+      ]
+    },
+    {
+      "Route": "js/ApplicationUser.83pf81mng1.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/ApplicationUser.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xPh52pcawxlq8y8JT60QWAEv/mW2WexnXXte0Fy03rI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:39:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "83pf81mng1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/ApplicationUser.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xPh52pcawxlq8y8JT60QWAEv/mW2WexnXXte0Fy03rI="
+        }
+      ]
+    },
+    {
+      "Route": "js/ApplicationUser.83pf81mng1.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xchlb13gor-83pf81mng1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FKHUG3pX03HcJ803eLIv8/ik+3E6a7VhjY0wS2Vq1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:39:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "83pf81mng1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/ApplicationUser.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FKHUG3pX03HcJ803eLIv8/ik+3E6a7VhjY0wS2Vq1qg="
+        }
+      ]
+    },
+    {
+      "Route": "js/ApplicationUser.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xchlb13gor-83pf81mng1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000317662008"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3147"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FKHUG3pX03HcJ803eLIv8/ik+3E6a7VhjY0wS2Vq1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:39:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xPh52pcawxlq8y8JT60QWAEv/mW2WexnXXte0Fy03rI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xPh52pcawxlq8y8JT60QWAEv/mW2WexnXXte0Fy03rI="
+        }
+      ]
+    },
+    {
+      "Route": "js/ApplicationUser.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/ApplicationUser.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "16872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xPh52pcawxlq8y8JT60QWAEv/mW2WexnXXte0Fy03rI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:39:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xPh52pcawxlq8y8JT60QWAEv/mW2WexnXXte0Fy03rI="
+        }
+      ]
+    },
+    {
+      "Route": "js/ApplicationUser.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xchlb13gor-83pf81mng1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FKHUG3pX03HcJ803eLIv8/ik+3E6a7VhjY0wS2Vq1qg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:39:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FKHUG3pX03HcJ803eLIv8/ik+3E6a7VhjY0wS2Vq1qg="
+        }
+      ]
+    },
+    {
+      "Route": "js/APropos.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/c8qe4b6o7x-swc1pd9as6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.011363636364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O2zVSdbK9ttm5yoBVF3PONwGJuY+SsKYINwW39i5xLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:40:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nBQGU5pm8Xo+9BtBB/FZiEAYsa69GEDh0iB75Yw3Vx4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBQGU5pm8Xo+9BtBB/FZiEAYsa69GEDh0iB75Yw3Vx4="
+        }
+      ]
+    },
+    {
+      "Route": "js/APropos.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/APropos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nBQGU5pm8Xo+9BtBB/FZiEAYsa69GEDh0iB75Yw3Vx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:40:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBQGU5pm8Xo+9BtBB/FZiEAYsa69GEDh0iB75Yw3Vx4="
+        }
+      ]
+    },
+    {
+      "Route": "js/APropos.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/c8qe4b6o7x-swc1pd9as6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O2zVSdbK9ttm5yoBVF3PONwGJuY+SsKYINwW39i5xLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:40:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-O2zVSdbK9ttm5yoBVF3PONwGJuY+SsKYINwW39i5xLY="
+        }
+      ]
+    },
+    {
+      "Route": "js/APropos.swc1pd9as6.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/c8qe4b6o7x-swc1pd9as6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.011363636364"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O2zVSdbK9ttm5yoBVF3PONwGJuY+SsKYINwW39i5xLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:40:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"nBQGU5pm8Xo+9BtBB/FZiEAYsa69GEDh0iB75Yw3Vx4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "swc1pd9as6"
+        },
+        {
+          "Name": "label",
+          "Value": "js/APropos.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBQGU5pm8Xo+9BtBB/FZiEAYsa69GEDh0iB75Yw3Vx4="
+        }
+      ]
+    },
+    {
+      "Route": "js/APropos.swc1pd9as6.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/APropos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "72"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nBQGU5pm8Xo+9BtBB/FZiEAYsa69GEDh0iB75Yw3Vx4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:40:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "swc1pd9as6"
+        },
+        {
+          "Name": "label",
+          "Value": "js/APropos.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBQGU5pm8Xo+9BtBB/FZiEAYsa69GEDh0iB75Yw3Vx4="
+        }
+      ]
+    },
+    {
+      "Route": "js/APropos.swc1pd9as6.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/c8qe4b6o7x-swc1pd9as6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "87"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"O2zVSdbK9ttm5yoBVF3PONwGJuY+SsKYINwW39i5xLY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:40:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "swc1pd9as6"
+        },
+        {
+          "Name": "label",
+          "Value": "js/APropos.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-O2zVSdbK9ttm5yoBVF3PONwGJuY+SsKYINwW39i5xLY="
+        }
+      ]
+    },
+    {
+      "Route": "js/DossierMedicaux.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/60x31uvr57-yuift2m8j8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000576368876"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1734"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gqumUi1NdwzwD7ABkGyEhTVPLpXrM5yGp3+AZAwLtMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:43:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xg24ItQmXzDqvDS+7H3kGwQ1w+30vu0tcCEQb4FmErA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xg24ItQmXzDqvDS+7H3kGwQ1w+30vu0tcCEQb4FmErA="
+        }
+      ]
+    },
+    {
+      "Route": "js/DossierMedicaux.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/DossierMedicaux.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xg24ItQmXzDqvDS+7H3kGwQ1w+30vu0tcCEQb4FmErA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:43:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xg24ItQmXzDqvDS+7H3kGwQ1w+30vu0tcCEQb4FmErA="
+        }
+      ]
+    },
+    {
+      "Route": "js/DossierMedicaux.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/60x31uvr57-yuift2m8j8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gqumUi1NdwzwD7ABkGyEhTVPLpXrM5yGp3+AZAwLtMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:43:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gqumUi1NdwzwD7ABkGyEhTVPLpXrM5yGp3+AZAwLtMI="
+        }
+      ]
+    },
+    {
+      "Route": "js/DossierMedicaux.yuift2m8j8.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/60x31uvr57-yuift2m8j8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000576368876"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1734"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gqumUi1NdwzwD7ABkGyEhTVPLpXrM5yGp3+AZAwLtMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:43:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"xg24ItQmXzDqvDS+7H3kGwQ1w+30vu0tcCEQb4FmErA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yuift2m8j8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/DossierMedicaux.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xg24ItQmXzDqvDS+7H3kGwQ1w+30vu0tcCEQb4FmErA="
+        }
+      ]
+    },
+    {
+      "Route": "js/DossierMedicaux.yuift2m8j8.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/DossierMedicaux.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8168"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xg24ItQmXzDqvDS+7H3kGwQ1w+30vu0tcCEQb4FmErA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:43:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yuift2m8j8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/DossierMedicaux.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xg24ItQmXzDqvDS+7H3kGwQ1w+30vu0tcCEQb4FmErA="
+        }
+      ]
+    },
+    {
+      "Route": "js/DossierMedicaux.yuift2m8j8.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/60x31uvr57-yuift2m8j8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1734"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gqumUi1NdwzwD7ABkGyEhTVPLpXrM5yGp3+AZAwLtMI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:43:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yuift2m8j8"
+        },
+        {
+          "Name": "label",
+          "Value": "js/DossierMedicaux.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gqumUi1NdwzwD7ABkGyEhTVPLpXrM5yGp3+AZAwLtMI="
+        }
+      ]
+    },
+    {
+      "Route": "js/Medecien.03sk3gsev5.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/inj6pc0g8h-03sk3gsev5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001377410468"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "725"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oDmBEkk+1LVxuRiaDsey+zPDWArcOwiQ6LG7OYgFAqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:46:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LC7Wwkg8uK92lR9wK1J5ZkkjbVjcf60ATCwCW74yYM8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "03sk3gsev5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Medecien.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC7Wwkg8uK92lR9wK1J5ZkkjbVjcf60ATCwCW74yYM8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Medecien.03sk3gsev5.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Medecien.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2883"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LC7Wwkg8uK92lR9wK1J5ZkkjbVjcf60ATCwCW74yYM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:46:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "03sk3gsev5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Medecien.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC7Wwkg8uK92lR9wK1J5ZkkjbVjcf60ATCwCW74yYM8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Medecien.03sk3gsev5.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/inj6pc0g8h-03sk3gsev5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oDmBEkk+1LVxuRiaDsey+zPDWArcOwiQ6LG7OYgFAqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:46:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "03sk3gsev5"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Medecien.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oDmBEkk+1LVxuRiaDsey+zPDWArcOwiQ6LG7OYgFAqE="
+        }
+      ]
+    },
+    {
+      "Route": "js/Medecien.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/inj6pc0g8h-03sk3gsev5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001377410468"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "725"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oDmBEkk+1LVxuRiaDsey+zPDWArcOwiQ6LG7OYgFAqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:46:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"LC7Wwkg8uK92lR9wK1J5ZkkjbVjcf60ATCwCW74yYM8=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC7Wwkg8uK92lR9wK1J5ZkkjbVjcf60ATCwCW74yYM8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Medecien.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Medecien.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2883"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LC7Wwkg8uK92lR9wK1J5ZkkjbVjcf60ATCwCW74yYM8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:46:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LC7Wwkg8uK92lR9wK1J5ZkkjbVjcf60ATCwCW74yYM8="
+        }
+      ]
+    },
+    {
+      "Route": "js/Medecien.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/inj6pc0g8h-03sk3gsev5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "725"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oDmBEkk+1LVxuRiaDsey+zPDWArcOwiQ6LG7OYgFAqE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:46:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oDmBEkk+1LVxuRiaDsey+zPDWArcOwiQ6LG7OYgFAqE="
+        }
+      ]
+    },
+    {
+      "Route": "js/NewPatient.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xkgvcl2gxd-nx4wfhi5np.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001228501229"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kUNDduXgr6l5RXx1d6VI0SLjcREW/qvqmQKFNHz/x9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+5MdEy/krtE+x04jh0gGBR5Fc+ye5Z+tuPFEE7Bht0A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+5MdEy/krtE+x04jh0gGBR5Fc+ye5Z+tuPFEE7Bht0A="
+        }
+      ]
+    },
+    {
+      "Route": "js/NewPatient.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/NewPatient.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+5MdEy/krtE+x04jh0gGBR5Fc+ye5Z+tuPFEE7Bht0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+5MdEy/krtE+x04jh0gGBR5Fc+ye5Z+tuPFEE7Bht0A="
+        }
+      ]
+    },
+    {
+      "Route": "js/NewPatient.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xkgvcl2gxd-nx4wfhi5np.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kUNDduXgr6l5RXx1d6VI0SLjcREW/qvqmQKFNHz/x9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kUNDduXgr6l5RXx1d6VI0SLjcREW/qvqmQKFNHz/x9M="
+        }
+      ]
+    },
+    {
+      "Route": "js/NewPatient.nx4wfhi5np.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xkgvcl2gxd-nx4wfhi5np.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001228501229"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kUNDduXgr6l5RXx1d6VI0SLjcREW/qvqmQKFNHz/x9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+5MdEy/krtE+x04jh0gGBR5Fc+ye5Z+tuPFEE7Bht0A=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nx4wfhi5np"
+        },
+        {
+          "Name": "label",
+          "Value": "js/NewPatient.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+5MdEy/krtE+x04jh0gGBR5Fc+ye5Z+tuPFEE7Bht0A="
+        }
+      ]
+    },
+    {
+      "Route": "js/NewPatient.nx4wfhi5np.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/NewPatient.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+5MdEy/krtE+x04jh0gGBR5Fc+ye5Z+tuPFEE7Bht0A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nx4wfhi5np"
+        },
+        {
+          "Name": "label",
+          "Value": "js/NewPatient.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+5MdEy/krtE+x04jh0gGBR5Fc+ye5Z+tuPFEE7Bht0A="
+        }
+      ]
+    },
+    {
+      "Route": "js/NewPatient.nx4wfhi5np.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/xkgvcl2gxd-nx4wfhi5np.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "813"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kUNDduXgr6l5RXx1d6VI0SLjcREW/qvqmQKFNHz/x9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:50:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nx4wfhi5np"
+        },
+        {
+          "Name": "label",
+          "Value": "js/NewPatient.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kUNDduXgr6l5RXx1d6VI0SLjcREW/qvqmQKFNHz/x9M="
+        }
+      ]
+    },
+    {
+      "Route": "js/Patient.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/ju1idgtmwe-wi62vqt8uw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000589970501"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1694"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"55lGH4lvOEjnmsLgnqr6ehqfa/cSlIIxkTYSwV9sKIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:51:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iIQl6uKhwCI7dqwm4UqWcdS26L2H4tlKRNUUkGneQ8k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iIQl6uKhwCI7dqwm4UqWcdS26L2H4tlKRNUUkGneQ8k="
+        }
+      ]
+    },
+    {
+      "Route": "js/Patient.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Patient.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iIQl6uKhwCI7dqwm4UqWcdS26L2H4tlKRNUUkGneQ8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:51:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iIQl6uKhwCI7dqwm4UqWcdS26L2H4tlKRNUUkGneQ8k="
+        }
+      ]
+    },
+    {
+      "Route": "js/Patient.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/ju1idgtmwe-wi62vqt8uw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"55lGH4lvOEjnmsLgnqr6ehqfa/cSlIIxkTYSwV9sKIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:51:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-55lGH4lvOEjnmsLgnqr6ehqfa/cSlIIxkTYSwV9sKIc="
+        }
+      ]
+    },
+    {
+      "Route": "js/Patient.wi62vqt8uw.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/ju1idgtmwe-wi62vqt8uw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000589970501"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1694"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"55lGH4lvOEjnmsLgnqr6ehqfa/cSlIIxkTYSwV9sKIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:51:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"iIQl6uKhwCI7dqwm4UqWcdS26L2H4tlKRNUUkGneQ8k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wi62vqt8uw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Patient.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iIQl6uKhwCI7dqwm4UqWcdS26L2H4tlKRNUUkGneQ8k="
+        }
+      ]
+    },
+    {
+      "Route": "js/Patient.wi62vqt8uw.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Patient.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7439"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iIQl6uKhwCI7dqwm4UqWcdS26L2H4tlKRNUUkGneQ8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:51:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wi62vqt8uw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Patient.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iIQl6uKhwCI7dqwm4UqWcdS26L2H4tlKRNUUkGneQ8k="
+        }
+      ]
+    },
+    {
+      "Route": "js/Patient.wi62vqt8uw.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/ju1idgtmwe-wi62vqt8uw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"55lGH4lvOEjnmsLgnqr6ehqfa/cSlIIxkTYSwV9sKIc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:51:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wi62vqt8uw"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Patient.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-55lGH4lvOEjnmsLgnqr6ehqfa/cSlIIxkTYSwV9sKIc="
+        }
+      ]
+    },
+    {
+      "Route": "js/Prescription.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/4ypheomkw0-rcwwk6hjvy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000971817298"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1028"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"McKEIqJWiem7IJO4HUTLwB08cp5sp/6K25zG4dj3Wls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:53:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"y6ctAAHGNXxkhEpalbq3ZKieHQ9mbTXhPt0z3UxkSkA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6ctAAHGNXxkhEpalbq3ZKieHQ9mbTXhPt0z3UxkSkA="
+        }
+      ]
+    },
+    {
+      "Route": "js/Prescription.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Prescription.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6ctAAHGNXxkhEpalbq3ZKieHQ9mbTXhPt0z3UxkSkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:53:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6ctAAHGNXxkhEpalbq3ZKieHQ9mbTXhPt0z3UxkSkA="
+        }
+      ]
+    },
+    {
+      "Route": "js/Prescription.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/4ypheomkw0-rcwwk6hjvy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"McKEIqJWiem7IJO4HUTLwB08cp5sp/6K25zG4dj3Wls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:53:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-McKEIqJWiem7IJO4HUTLwB08cp5sp/6K25zG4dj3Wls="
+        }
+      ]
+    },
+    {
+      "Route": "js/Prescription.rcwwk6hjvy.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/4ypheomkw0-rcwwk6hjvy.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000971817298"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1028"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"McKEIqJWiem7IJO4HUTLwB08cp5sp/6K25zG4dj3Wls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:53:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"y6ctAAHGNXxkhEpalbq3ZKieHQ9mbTXhPt0z3UxkSkA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rcwwk6hjvy"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Prescription.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6ctAAHGNXxkhEpalbq3ZKieHQ9mbTXhPt0z3UxkSkA="
+        }
+      ]
+    },
+    {
+      "Route": "js/Prescription.rcwwk6hjvy.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/Prescription.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2985"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y6ctAAHGNXxkhEpalbq3ZKieHQ9mbTXhPt0z3UxkSkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:53:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rcwwk6hjvy"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Prescription.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y6ctAAHGNXxkhEpalbq3ZKieHQ9mbTXhPt0z3UxkSkA="
+        }
+      ]
+    },
+    {
+      "Route": "js/Prescription.rcwwk6hjvy.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/4ypheomkw0-rcwwk6hjvy.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"McKEIqJWiem7IJO4HUTLwB08cp5sp/6K25zG4dj3Wls=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:53:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rcwwk6hjvy"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Prescription.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-McKEIqJWiem7IJO4HUTLwB08cp5sp/6K25zG4dj3Wls="
+        }
+      ]
+    },
+    {
+      "Route": "js/SignUp.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/kx4szb3iwf-r8eokowjzt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001396648045"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "715"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7uiMRwEpjvLfQmJyXSINFmSpbiwVkiVgZcNFoL1LdK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GxK5lejcvds2Fr6vzLFyeQnBr02lA+KioEBzB5KZ9gQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GxK5lejcvds2Fr6vzLFyeQnBr02lA+KioEBzB5KZ9gQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/SignUp.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/SignUp.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2625"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GxK5lejcvds2Fr6vzLFyeQnBr02lA+KioEBzB5KZ9gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GxK5lejcvds2Fr6vzLFyeQnBr02lA+KioEBzB5KZ9gQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/SignUp.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/kx4szb3iwf-r8eokowjzt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7uiMRwEpjvLfQmJyXSINFmSpbiwVkiVgZcNFoL1LdK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7uiMRwEpjvLfQmJyXSINFmSpbiwVkiVgZcNFoL1LdK0="
+        }
+      ]
+    },
+    {
+      "Route": "js/SignUp.r8eokowjzt.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/kx4szb3iwf-r8eokowjzt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001396648045"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "715"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7uiMRwEpjvLfQmJyXSINFmSpbiwVkiVgZcNFoL1LdK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GxK5lejcvds2Fr6vzLFyeQnBr02lA+KioEBzB5KZ9gQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r8eokowjzt"
+        },
+        {
+          "Name": "label",
+          "Value": "js/SignUp.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GxK5lejcvds2Fr6vzLFyeQnBr02lA+KioEBzB5KZ9gQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/SignUp.r8eokowjzt.js",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/wwwroot/js/SignUp.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2625"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GxK5lejcvds2Fr6vzLFyeQnBr02lA+KioEBzB5KZ9gQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r8eokowjzt"
+        },
+        {
+          "Name": "label",
+          "Value": "js/SignUp.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GxK5lejcvds2Fr6vzLFyeQnBr02lA+KioEBzB5KZ9gQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/SignUp.r8eokowjzt.js.gz",
+      "AssetFile": "/home/homme/Documents/Net/ApplicationMedicale/obj/Debug/net9.0/compressed/kx4szb3iwf-r8eokowjzt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "715"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7uiMRwEpjvLfQmJyXSINFmSpbiwVkiVgZcNFoL1LdK0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 24 May 2025 18:58:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r8eokowjzt"
+        },
+        {
+          "Name": "label",
+          "Value": "js/SignUp.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7uiMRwEpjvLfQmJyXSINFmSpbiwVkiVgZcNFoL1LdK0="
         }
       ]
     },
