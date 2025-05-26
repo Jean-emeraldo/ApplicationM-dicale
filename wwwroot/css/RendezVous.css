@@ -1,4 +1,3 @@
-
 :root {
     --primary-color: #2c7be5;
     --secondary-color: #00d97e;
@@ -168,3 +167,31 @@ footer {
     font-size: 0.9rem;
 }
 
+/* ========== Media Queries ========== */
+@media (max-width: 768px) {
+    .header-container,
+    .main-container,
+    .footer-container {
+        padding: 0 10px;
+    }
+
+    .form-container {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container,
+    .main-container,
+    .footer-container {
+        padding: 0 5px;
+    }
+
+    .form-container {
+        padding: 1rem;
+    }
+
+    .btn {
+        padding: 0.6rem 1.2rem;
+    }
+}

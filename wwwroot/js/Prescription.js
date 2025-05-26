@@ -1,82 +1,111 @@
+document.addEventListener('DOMContentLoaded', () => {
+    // Liste de médicaments pour l'autocomplétion
+    const medicaments = [
+        "Paracétamol", "Ibuprofène", "Amoxicilline", "Doliprane", "Kardégic",
+        "Levothyrox", "Spasfon", "Voltaren", "Augmentin", "Zyrtec",
+        "Xanax", "Lexomil", "Dafalgan", "Efferalgan", "Smecta",
+        "Imodium", "Gaviscon", "Mopral", "Lanzor", "Nexium",
+        "Ventoline", "Seretide", "Symbicort", "Singulair", "Flixotide"
+    ];
+
+    // Initialiser l'autocomplétion
+    const inputElement = document.getElementById("medicament");
+    if (inputElement) {
+        autocomplete(inputElement, medicaments);
+    }
+});
+
+/**
+ * Fonction d'autocomplétion
+ * @param {HTMLInputElement} inp - Champ d'entrée
+ * @param {Array} arr - Liste des suggestions
+ */
 function autocomplete(inp, arr) {
-    var currentFocus;
-    inp.addEventListener("input", function(e) {
-        var a, b, i, val = this.value;
+    let currentFocus;
+
+    inp.addEventListener("input", function () {
+        const val = this.value;
         closeAllLists();
-        if (!val) { return false;}
+        if (!val) return false;
+
         currentFocus = -1;
-        a = document.createElement("DIV");
-        a.setAttribute("id", this.id + "autocomplete-list");
-        a.setAttribute("class", "autocomplete-items");
-        this.parentNode.appendChild(a);
-        for (i = 0; i < arr.length; i++) {
-            if (arr[i].substr(0, val.length).toUpperCase() == val.toUpperCase()) {
-                b = document.createElement("DIV");
-                b.innerHTML = "<strong>" + arr[i].substr(0, val.length) + "</strong>";
-                b.innerHTML += arr[i].substr(val.length);
-                b.innerHTML += "<input type='hidden' value='" + arr[i] + "'>";
-                b.addEventListener("click", function(e) {
-                    inp.value = this.getElementsByTagName("input")[0].value;
+
+        // Créer un conteneur pour les suggestions
+        const listContainer = document.createElement("div");
+        listContainer.setAttribute("id", this.id + "autocomplete-list");
+        listContainer.setAttribute("class", "autocomplete-items");
+        this.parentNode.appendChild(listContainer);
+
+        // Ajouter les suggestions correspondantes
+        arr.forEach(item => {
+            if (item.substr(0, val.length).toUpperCase() === val.toUpperCase()) {
+                const suggestionItem = document.createElement("div");
+                suggestionItem.innerHTML = `<strong>${item.substr(0, val.length)}</strong>${item.substr(val.length)}`;
+                suggestionItem.innerHTML += `<input type='hidden' value='${item}'>`;
+
+                suggestionItem.addEventListener("click", function () {
+                    inp.value = this.querySelector("input").value;
                     closeAllLists();
                 });
-                a.appendChild(b);
+
+                listContainer.appendChild(suggestionItem);
             }
-        }
+        });
     });
-    
-    inp.addEventListener("keydown", function(e) {
-        var x = document.getElementById(this.id + "autocomplete-list");
-        if (x) x = x.getElementsByTagName("div");
-        if (e.keyCode == 40) { // Flèche bas
+
+    inp.addEventListener("keydown", function (e) {
+        let items = document.getElementById(this.id + "autocomplete-list");
+        if (items) items = items.getElementsByTagName("div");
+
+        if (e.keyCode === 40) { // Flèche bas
             currentFocus++;
-            addActive(x);
-        } else if (e.keyCode == 38) { // Flèche haut
+            addActive(items);
+        } else if (e.keyCode === 38) { // Flèche haut
             currentFocus--;
-            addActive(x);
-        } else if (e.keyCode == 13) { // Entrée
+            addActive(items);
+        } else if (e.keyCode === 13) { // Entrée
             e.preventDefault();
-            if (currentFocus > -1) {
-                if (x) x[currentFocus].click();
+            if (currentFocus > -1 && items) {
+                items[currentFocus].click();
             }
         }
     });
-    
-    function addActive(x) {
-        if (!x) return false;
-        removeActive(x);
-        if (currentFocus >= x.length) currentFocus = 0;
-        if (currentFocus < 0) currentFocus = (x.length - 1);
-        x[currentFocus].classList.add("autocomplete-active");
+
+    /**
+     * Ajouter la classe "active" à un élément
+     * @param {HTMLCollection} items - Liste des suggestions
+     */
+    function addActive(items) {
+        if (!items) return false;
+        removeActive(items);
+        if (currentFocus >= items.length) currentFocus = 0;
+        if (currentFocus < 0) currentFocus = items.length - 1;
+        items[currentFocus].classList.add("autocomplete-active");
     }
-    
-    function removeActive(x) {
-        for (var i = 0; i < x.length; i++) {
-            x[i].classList.remove("autocomplete-active");
-        }
+
+    /**
+     * Supprimer la classe "active" de tous les éléments
+     * @param {HTMLCollection} items - Liste des suggestions
+     */
+    function removeActive(items) {
+        Array.from(items).forEach(item => item.classList.remove("autocomplete-active"));
     }
-    
+
+    /**
+     * Fermer toutes les listes de suggestions
+     * @param {HTMLElement} [elmnt] - Élément déclencheur
+     */
     function closeAllLists(elmnt) {
-        var x = document.getElementsByClassName("autocomplete-items");
-        for (var i = 0; i < x.length; i++) {
-            if (elmnt != x[i] && elmnt != inp) {
-                x[i].parentNode.removeChild(x[i]);
+        const items = document.getElementsByClassName("autocomplete-items");
+        Array.from(items).forEach(item => {
+            if (elmnt !== item && elmnt !== inp) {
+                item.parentNode.removeChild(item);
             }
-        }
+        });
     }
-    
+
+    // Fermer les listes de suggestions en cliquant ailleurs
     document.addEventListener("click", function (e) {
         closeAllLists(e.target);
     });
 }
-
-// Liste de médicaments pour l'autocomplétion
-var medicaments = [
-    "Paracétamol", "Ibuprofène", "Amoxicilline", "Doliprane", "Kardégic",
-    "Levothyrox", "Spasfon", "Voltaren", "Augmentin", "Zyrtec",
-    "Xanax", "Lexomil", "Dafalgan", "Efferalgan", "Smecta",
-    "Imodium", "Gaviscon", "Mopral", "Lanzor", "Nexium",
-    "Ventoline", "Seretide", "Symbicort", "Singulair", "Flixotide"
-];
-
-// Initialiser l'autocomplétion
-autocomplete(document.getElementById("medicament"), medicaments);

@@ -433,3 +433,37 @@ select.filter-select {
 .form-row .form-group {
     flex: 1;
 }
+
+/* ========== Media Queries ========== */
+@media (max-width: 768px) {
+    .header-container,
+    .nav-container,
+    .main-content {
+        padding: 0 1rem;
+    }
+
+    .page-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-container,
+    .nav-container,
+    .main-content {
+        padding: 0 0.5rem;
+    }
+
+    .page-title h1 {
+        font-size: 1.25rem;
+    }
+
+    .btn {
+        padding: 0.5rem 1rem;
+    }
+}
