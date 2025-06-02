@@ -1,5 +1,7 @@
+@model MediCare.Models.ApplicationUser
 @{
     Layout = null;
+    ViewData["Title"] = "Page Utilisateur";
 }
 
 <!DOCTYPE html>
@@ -11,7 +13,14 @@
     <link rel="stylesheet" href="../css/ApplicationUser.css" asp-append-version="true" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
+            if (!isAuthenticated) {
+                window.location.href = '/Home/NewPatient'; 
+            }
+        });
+    </script>
 </head>
 <body>
    
@@ -105,6 +114,10 @@
                     <i class="fas fa-plus"></i> Ajouter un Utilisateur
                 </a>
             </div>
+
+            <h1>Bienvenue sur MediCare</h1>
+            <p>Vous êtes connecté avec succès.</p>
+            <a href="@Url.Action("Index", "Home")">Retour à l'accueil</a>
 
             <div class="card">
                 <div class="card-header">

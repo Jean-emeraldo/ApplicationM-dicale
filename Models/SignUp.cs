@@ -1,35 +1,33 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MediCare.Models
+namespace ApplicationMedicale.Models
 {
     public class SignUp
     {
-        [Required(ErrorMessage = "Veuillez saisir votre nom complet")]
-        [Display(Name = "Nom Complet")]
+        [Key] // Ajout de l'attribut Key pour définir la clé primaire
+        public int Id { get; set; }
+
+        [Required(ErrorMessage = "Le nom complet est requis.")]
         public string FullName { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Veuillez saisir votre adresse email")]
-        [EmailAddress(ErrorMessage = "Veuillez saisir une adresse email valide")]
-        [Display(Name = "Adresse Email")]
-        public string Email { get; set; } = string.Empty;
+        [Required(ErrorMessage = "Le nom d'utilisateur est requis.")]
+        public string User { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Veuillez saisir votre mot de passe")]
-        [DataType(DataType.Password)]
-        [Display(Name = "Mot de passe")]
+        [Required(ErrorMessage = "Le mot de passe est requis.")]
+        [MinLength(6, ErrorMessage = "Le mot de passe doit contenir au moins 6 caractères.")]
         public string Password { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "Veuillez confirmer votre mot de passe")]
-        [DataType(DataType.Password)]
-        [Compare("Password", ErrorMessage = "Les mots de passe ne correspondent pas")]
-        [Display(Name = "Confirmer le mot de passe")]
+        [Required(ErrorMessage = "La confirmation du mot de passe est requise.")]
+        [Compare("Password", ErrorMessage = "Les mots de passe ne correspondent pas.")]
         public string ConfirmPassword { get; set; } = string.Empty;
 
         [DataType(DataType.Date)]
-        [Display(Name = "Date de Naissance")]
+        [Display(Name = "Date de naissance")]
         public DateTime? DateOfBirth { get; set; }
 
-        [Display(Name = "Numéro de Téléphone")]
+        [Phone(ErrorMessage = "Le numéro de téléphone est invalide.")]
+        [Display(Name = "Numéro de téléphone")]
         public string PhoneNumber { get; set; } = string.Empty;
 
         [Display(Name = "Adresse")]
@@ -38,13 +36,10 @@ namespace MediCare.Models
         [Display(Name = "Ville")]
         public string City { get; set; } = string.Empty;
 
-        [Display(Name = "Code Postal")]
+        [Display(Name = "Code postal")]
         public string PostalCode { get; set; } = string.Empty;
 
         [Display(Name = "Pays")]
         public string Country { get; set; } = string.Empty;
-
-        [Display(Name = "Date d'inscription")]
-        public DateTime RegistrationDate { get; set; } = DateTime.Now;
     }
 }

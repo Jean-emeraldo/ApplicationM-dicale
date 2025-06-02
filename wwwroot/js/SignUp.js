@@ -1,125 +1,102 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Gestion de la visibilité des mots de passe
-    addTogglePasswordVisibility('toggleSignupPassword', 'signupPassword');
-    addTogglePasswordVisibility('toggleSignupConfirmPassword', 'signupConfirmPassword');
+    const fields = {
+        fullName: document.getElementById('signupFullName'),
+        email: document.getElementById('signupEmail'),
+        password: document.getElementById('signupPassword'),
+        confirmPassword: document.getElementById('signupConfirmPassword'),
+    };
 
-    // Gestion du formulaire d'inscription
-    document.getElementById('signupFormAction').addEventListener('submit', function (event) {
-        event.preventDefault();
-        if (validateSignUpForm()) {
-            const fullName = document.getElementById('signupFullName').value;
-            const email = document.getElementById('signupEmail').value;
-            const password = document.getElementById('signupPassword').value;
-
-            const userData = {
-                fullName: fullName,
-                email: email,
-                password: password
-            };
-
-            localStorage.setItem('medicare_user_' + email, JSON.stringify(userData));
+    document.getElementById('signupFormAction')?.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (validateSignUpForm(fields)) {
             alert('Inscription réussie! Vous pouvez maintenant vous connecter.');
-            window.location.href = "/Home/NewPatient"; // URL corrigée
+            window.location.href = "/Home/NewPatient"; // Redirection vers la page de connexion
         }
     });
 });
 
 /**
- * Ajoute la gestion de la visibilité du mot de passe
- * @param {string} toggleId - ID du bouton de bascule
- * @param {string} inputId - ID du champ de mot de passe
+ * Ajoute un bouton de visibilité de mot de passe
  */
 function addTogglePasswordVisibility(toggleId, inputId) {
-    const toggleButton = document.getElementById(toggleId);
-    if (toggleButton) {
-        toggleButton.addEventListener('click', function () {
-            const passwordInput = document.getElementById(inputId);
-            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
-            passwordInput.setAttribute('type', type);
-            this.classList.toggle('fa-eye-slash');
+    const toggle = document.getElementById(toggleId);
+    const input = document.getElementById(inputId);
+    if (toggle && input) {
+        toggle.addEventListener('click', () => {
+            const isPassword = input.type === 'password';
+            input.type = isPassword ? 'text' : 'password';
+            toggle.classList.toggle('fa-eye-slash', isPassword);
         });
     }
 }
 
 /**
  * Valide le formulaire d'inscription
- * @returns {boolean} - Retourne true si le formulaire est valide, sinon false
  */
-function validateSignUpForm() {
+function validateSignUpForm(fields) {
     let isValid = true;
 
-    const fullName = document.getElementById('signupFullName');
-    const email = document.getElementById('signupEmail');
-    const password = document.getElementById('signupPassword');
-    const confirmPassword = document.getElementById('signupConfirmPassword');
+    const validations = [
+        {
+            field: fields.fullName,
+            errorId: 'signupFullName-error',
+            condition: !fields.fullName.value,
+            message: 'Le nom complet est requis.'
+        },
+        {
+            field: fields.email,
+            errorId: 'signupEmail-error',
+            condition: !fields.email.value || !validateEmail(fields.email.value),
+            message: 'Veuillez entrer un email valide.'
+        },
+        {
+            field: fields.password,
+            errorId: 'signupPassword-error',
+            condition: !fields.password.value,
+            message: 'Le mot de passe est requis.'
+        },
+        {
+            field: fields.confirmPassword,
+            errorId: 'signupConfirmPassword-error',
+            condition: !fields.confirmPassword.value || fields.confirmPassword.value !== fields.password.value,
+            message: 'Les mots de passe ne correspondent pas.'
+        }
+    ];
 
-    // Validation du nom complet
-    if (!fullName.value) {
-        showError(fullName, 'signupFullName-error', 'Le nom complet est requis.');
-        isValid = false;
-    } else {
-        hideError(fullName, 'signupFullName-error');
-    }
-
-    // Validation de l'email
-    if (!email.value || !validateEmail(email.value)) {
-        showError(email, 'signupEmail-error', 'Veuillez entrer un email valide.');
-        isValid = false;
-    } else {
-        hideError(email, 'signupEmail-error');
-    }
-
-    // Validation du mot de passe
-    if (!password.value) {
-        showError(password, 'signupPassword-error', 'Le mot de passe est requis.');
-        isValid = false;
-    } else {
-        hideError(password, 'signupPassword-error');
-    }
-
-    // Validation de la confirmation du mot de passe
-    if (!confirmPassword.value || confirmPassword.value !== password.value) {
-        showError(confirmPassword, 'signupConfirmPassword-error', 'Les mots de passe ne correspondent pas.');
-        isValid = false;
-    } else {
-        hideError(confirmPassword, 'signupConfirmPassword-error');
-    }
+    validations.forEach(({ field, errorId, condition, message }) => {
+        if (condition) {
+            showError(field, errorId, message);
+            isValid = false;
+        } else {
+            hideError(field, errorId);
+        }
+    });
 
     return isValid;
 }
 
-/**
- * Affiche un message d'erreur pour un champ
- * @param {HTMLElement} inputElement - Champ d'entrée
- * @param {string} errorId - ID de l'élément d'erreur
- * @param {string} message - Message d'erreur
- */
-function showError(inputElement, errorId, message) {
-    inputElement.classList.add('invalid');
-    const errorElement = document.getElementById(errorId);
-    errorElement.style.display = 'block';
-    errorElement.textContent = message;
+function showError(field, errorId, message) {
+    field.classList.add('invalid');
+    const error = document.getElementById(errorId);
+    if (error) {
+        error.style.display = 'block';
+        error.textContent = message;
+    }
 }
 
-/**
- * Masque le message d'erreur pour un champ
- * @param {HTMLElement} inputElement - Champ d'entrée
- * @param {string} errorId - ID de l'élément d'erreur
- */
-function hideError(inputElement, errorId) {
-    inputElement.classList.remove('invalid');
-    const errorElement = document.getElementById(errorId);
-    errorElement.style.display = 'none';
-    errorElement.textContent = '';
+function hideError(field, errorId) {
+    field.classList.remove('invalid');
+    const error = document.getElementById(errorId);
+    if (error) {
+        error.style.display = 'none';
+        error.textContent = '';
+    }
 }
 
-/**
- * Valide une adresse email
- * @param {string} email - Adresse email à valider
- * @returns {boolean} - Retourne true si l'email est valide, sinon false
- */
 function validateEmail(email) {
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRegex.test(email);
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
+function capitalize(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}

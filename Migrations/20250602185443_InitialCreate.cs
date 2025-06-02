@@ -36,6 +36,15 @@ namespace ApplicationMedicale.Migrations
                     LastLoginDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
                     FailedLoginAttempts = table.Column<int>(type: "integer", nullable: false),
                     LockoutEndDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
+                    Role = table.Column<string>(type: "text", nullable: false),
+                    Status = table.Column<string>(type: "text", nullable: false),
+                    Description = table.Column<string>(type: "text", nullable: false),
+                    Avatar = table.Column<string>(type: "text", nullable: false, defaultValue: "../images/default-avatar.png"),
+                    DateOfBirth = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
+                    Address = table.Column<string>(type: "text", nullable: false),
+                    City = table.Column<string>(type: "text", nullable: false),
+                    PostalCode = table.Column<string>(type: "text", nullable: false),
+                    Country = table.Column<string>(type: "text", nullable: false),
                     UserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "character varying(256)", maxLength: 256, nullable: true),
@@ -60,14 +69,14 @@ namespace ApplicationMedicale.Migrations
                 name: "DossiersMedicaux",
                 columns: table => new
                 {
-                    Id = table.Column<string>(type: "text", nullable: false),
-                    Nom = table.Column<string>(type: "text", nullable: false),
+                    Id = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Nom = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
                     DateCreation = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    MedecinResponsable = table.Column<string>(type: "text", nullable: false),
+                    MedecinResponsable = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
                     DerniereMiseAJour = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Statut = table.Column<string>(type: "text", nullable: false),
-                    Description = table.Column<string>(type: "text", nullable: true),
-                    AntecedentsMedicaux = table.Column<string>(type: "text", nullable: true)
+                    Description = table.Column<string>(type: "character varying(500)", maxLength: 500, nullable: true),
+                    AntecedentsMedicaux = table.Column<string>(type: "character varying(1000)", maxLength: 1000, nullable: true)
                 },
                 constraints: table =>
                 {
@@ -90,6 +99,29 @@ namespace ApplicationMedicale.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Medecins", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "NewPatients",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    FullName = table.Column<string>(type: "text", nullable: false),
+                    Password = table.Column<string>(type: "text", nullable: false),
+                    User = table.Column<string>(type: "text", nullable: false),
+                    DateOfBirth = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "text", nullable: false),
+                    Address = table.Column<string>(type: "text", nullable: false),
+                    City = table.Column<string>(type: "text", nullable: false),
+                    PostalCode = table.Column<string>(type: "text", nullable: false),
+                    Country = table.Column<string>(type: "text", nullable: false),
+                    RegistrationDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
+                    LastLoginDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_NewPatients", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -148,6 +180,28 @@ namespace ApplicationMedicale.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_RendezVous", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "SignUps",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    FullName = table.Column<string>(type: "text", nullable: false),
+                    User = table.Column<string>(type: "text", nullable: false),
+                    Password = table.Column<string>(type: "text", nullable: false),
+                    ConfirmPassword = table.Column<string>(type: "text", nullable: false),
+                    DateOfBirth = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
+                    PhoneNumber = table.Column<string>(type: "text", nullable: false),
+                    Address = table.Column<string>(type: "text", nullable: false),
+                    City = table.Column<string>(type: "text", nullable: false),
+                    PostalCode = table.Column<string>(type: "text", nullable: false),
+                    Country = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_SignUps", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -319,6 +373,9 @@ namespace ApplicationMedicale.Migrations
                 name: "Medecins");
 
             migrationBuilder.DropTable(
+                name: "NewPatients");
+
+            migrationBuilder.DropTable(
                 name: "Patients");
 
             migrationBuilder.DropTable(
@@ -326,6 +383,9 @@ namespace ApplicationMedicale.Migrations
 
             migrationBuilder.DropTable(
                 name: "RendezVous");
+
+            migrationBuilder.DropTable(
+                name: "SignUps");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

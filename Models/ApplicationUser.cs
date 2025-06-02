@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using MediCare.Models; 
 using System;
 using System.ComponentModel.DataAnnotations;
 
@@ -34,6 +36,22 @@ namespace MediCare.Models
 
         [Display(Name = "Avatar")]
         public string Avatar { get; set; } = "../images/default-avatar.png";
+
+        [Display(Name = "Date de naissance")]
+        [DataType(DataType.Date)]
+        public DateTime? DateOfBirth { get; set; }
+
+        [Display(Name = "Adresse")]
+        public string Address { get; set; } = string.Empty;
+
+        [Display(Name = "Ville")]
+        public string City { get; set; } = string.Empty;
+
+        [Display(Name = "Code postal")]
+        public string PostalCode { get; set; } = string.Empty;
+
+        [Display(Name = "Pays")]
+        public string Country { get; set; } = string.Empty;
 
         public void UpdateLastLoginDate()
         {
